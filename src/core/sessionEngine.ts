@@ -5,6 +5,8 @@ type CreateSessionInput = {
   questions: Question[];
   mode: LearningMode;
   subject?: Subject;
+  levelId?: string;
+  questionIds?: string[];
   limit?: number;
   answeredQuestionIds?: string[];
   wrongQuestionIds?: string[];
@@ -32,12 +34,26 @@ export function createSession({
   questions,
   mode,
   subject,
+  levelId,
+  questionIds: fixedQuestionIds,
   limit = defaultLimit,
   answeredQuestionIds = [],
   wrongQuestionIds = [],
   errorRecords = {},
   srsDueQuestionIds = []
 }: CreateSessionInput) {
+  if (fixedQuestionIds?.length) {
+    return {
+      id: `${mode}-${levelId ?? subject ?? "fixed"}-${Date.now()}`,
+      mode,
+      subject,
+      levelId,
+      questionIds: Array.from(new Set(fixedQuestionIds)).slice(0, limit),
+      currentIndex: 0,
+      startedAt: Date.now()
+    };
+  }
+
   const answeredIds = new Set(answeredQuestionIds);
   let pool = uniqueById(questions);
 
@@ -87,6 +103,7 @@ export function createSession({
     id: `${mode}-${subject ?? "all"}-${Date.now()}`,
     mode,
     subject,
+    levelId,
     questionIds,
     currentIndex: 0,
     startedAt: Date.now()

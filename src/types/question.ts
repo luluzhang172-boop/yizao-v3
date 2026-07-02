@@ -5,7 +5,12 @@ export type Subject =
   | "case"
   | "unknown";
 
-export type QuestionType = "single_choice" | "case" | "judgement" | "unknown";
+export type QuestionType =
+  | "single_choice"
+  | "multiple_choice"
+  | "judgement"
+  | "case"
+  | "unknown";
 
 export interface Question {
   id: string;
@@ -13,13 +18,9 @@ export interface Question {
   subject: Subject;
   type: QuestionType;
   stem: string;
-  options: {
-    A: string;
-    B: string;
-    C: string;
-    D: string;
-  } | null;
+  options: Record<string, string> | null;
   answer: string;
+  normalizedAnswer: string[];
   explanation: string;
   frequencyScore: number;
   errorWeight: number;
@@ -30,7 +31,14 @@ export interface Question {
 export type QuestionBankStats = {
   total: number;
   validChoice: number;
+  singleChoice: number;
+  multipleChoice: number;
+  judgement: number;
+  case: number;
   noOptions: number;
+  hasEOption: number;
+  deMergedFixCount: number;
+  lowConfidence: number;
   bySubject: Record<string, number>;
   byYear: Record<string, number>;
   avgConfidence: number;

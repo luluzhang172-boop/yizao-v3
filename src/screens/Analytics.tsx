@@ -1,56 +1,73 @@
 import { ScrollView, StyleSheet, Text, View } from "react-native";
-import { useLearningStore } from "../store/learningStore";
+import { buildLevelNodes } from "../core/levelEngine";
+import { getLevelFromXp, useLearningStore } from "../store/learningStore";
+import { theme } from "../theme/theme";
 import { subjectLabels, subjects } from "../types/question";
 import { Metric, Page, Panel, SectionTitle } from "./shared";
 
 export function Analytics() {
   const progress = useLearningStore((state) => state.progress);
   const questions = useLearningStore((state) => state.questions);
-  const totalLogs = progress.answerLogs.length;
-  const correctLogs = progress.answerLogs.filter((log) => log.correct).length;
-  const accuracy = totalLogs ? Math.round((correctLogs / totalLogs) * 100) : 0;
+  const logs = progress.answerLogs;
+  const accuracy = logs.length
+    ? Math.round((logs.filter((log) => log.correct).length / logs.length) * 100)
+    : 0;
+  const nodes = buildLevelNodes(questions, progress);
+  const completedLevels = nodes.filter((node) => node.completed).length;
+  const singleLogs = logs.filter((log) => log.questionType === "single_choice");
+  const multiLogs = logs.filter((log) => log.questionType === "multiple_choice");
+  const singleAccuracy = singleLogs.length
+    ? Math.round((singleLogs.filter((log) => log.correct).length / singleLogs.length) * 100)
+    : 0;
+  const multiAccuracy = multiLogs.length
+    ? Math.round((multiLogs.filter((log) => log.correct).length / multiLogs.length) * 100)
+    : 0;
+  const worstSubject = subjects
+    .map((subject) => {
+      const subjectLogs = logs.filter((log) => log.subject === subject);
+      const wrong = subjectLogs.filter((log) => !log.correct).length;
+      return { subject, wrong };
+    })
+    .sort((a, b) => b.wrong - a.wrong)[0];
 
   return (
     <Page>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.metrics}>
-          <Metric label="已做题" value={progress.answeredQuestionIds.length} tone="dark" />
-          <Metric label="正确率" value={`${accuracy}%`} tone="green" />
-          <Metric label="错题数" value={progress.wrongQuestionIds.length} tone="red" />
+          <Metric label="总题数" value={questions.length} tone="primary" />
+          <Metric label="已做" value={progress.answeredQuestionIds.length} tone="success" />
+          <Metric label="正确率" value={`${accuracy}%`} tone="accent" />
         </View>
+        <View style={styles.metrics}>
+          <Metric label="XP" value={progress.xp} tone="primary" />
+          <Metric label="Level" value={getLevelFromXp(progress.xp)} tone="secondary" />
+          <Metric label="Streak" value={`${progress.streak}天`} tone="success" />
+        </View>
+
+        <Panel>
+          <SectionTitle>题型表现</SectionTitle>
+          <Text style={styles.line}>单选题正确率：{singleAccuracy}%</Text>
+          <Text style={styles.line}>多选题正确率：{multiAccuracy}%</Text>
+          <Text style={styles.line}>已完成关卡：{completedLevels}</Text>
+          <Text style={styles.line}>
+            错题最多科目：{worstSubject ? subjectLabels[worstSubject.subject] : "暂无"}
+          </Text>
+        </Panel>
 
         <Panel>
           <SectionTitle>各科正确率</SectionTitle>
           {subjects.map((subject) => {
-            const subjectTotal = questions.filter((q) => q.subject === subject).length;
-            const logs = progress.answerLogs.filter((log) => log.subject === subject);
-            const subjectAccuracy = logs.length
-              ? Math.round((logs.filter((log) => log.correct).length / logs.length) * 100)
+            const subjectLogs = logs.filter((log) => log.subject === subject);
+            const subjectAccuracy = subjectLogs.length
+              ? Math.round((subjectLogs.filter((log) => log.correct).length / subjectLogs.length) * 100)
               : 0;
             return (
               <View key={subject} style={styles.row}>
-                <Text style={styles.label}>{subjectLabels[subject]}（{subjectTotal}题）</Text>
-                <Text style={styles.value}>{logs.length}次 / {subjectAccuracy}%</Text>
+                <Text style={styles.label}>{subjectLabels[subject]}</Text>
+                <Text style={styles.value}>{subjectLogs.length}次 / {subjectAccuracy}%</Text>
               </View>
             );
           })}
-        </Panel>
-
-        <Panel>
-          <SectionTitle>最近答题</SectionTitle>
-          {progress.answerLogs.slice(-10).reverse().map((log) => (
-            <View key={`${log.questionId}-${log.timestamp}`} style={styles.row}>
-              <Text numberOfLines={1} style={styles.label}>
-                {subjectLabels[log.subject]} · {log.mode}
-              </Text>
-              <Text style={[styles.value, log.correct ? styles.ok : styles.bad]}>
-                {log.correct ? "正确" : "错误"}
-              </Text>
-            </View>
-          ))}
-          {progress.answerLogs.length === 0 && (
-            <Text style={styles.empty}>暂无答题记录。</Text>
-          )}
         </Panel>
       </ScrollView>
     </Page>
@@ -60,38 +77,28 @@ export function Analytics() {
 const styles = StyleSheet.create({
   metrics: {
     flexDirection: "row",
-    gap: 8,
-    marginBottom: 12
+    gap: theme.spacing.sm,
+    marginBottom: theme.spacing.md
+  },
+  line: {
+    color: theme.colors.muted,
+    fontWeight: "800",
+    lineHeight: 24
   },
   row: {
-    minHeight: 38,
+    minHeight: 40,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    borderBottomColor: "#e5e7eb",
-    borderBottomWidth: 1,
-    gap: 12
+    borderBottomColor: theme.colors.border,
+    borderBottomWidth: 1
   },
   label: {
-    flex: 1,
-    color: "#334155",
-    fontSize: 14,
-    fontWeight: "800"
-  },
-  value: {
-    color: "#111827",
-    fontSize: 14,
+    color: theme.colors.text,
     fontWeight: "900"
   },
-  ok: {
-    color: "#166534"
-  },
-  bad: {
-    color: "#991b1b"
-  },
-  empty: {
-    color: "#64748b",
-    fontWeight: "700",
-    lineHeight: 22
+  value: {
+    color: theme.colors.primary,
+    fontWeight: "900"
   }
 });

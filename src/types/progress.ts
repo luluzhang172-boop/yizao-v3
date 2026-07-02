@@ -1,6 +1,6 @@
 import { Subject } from "./question";
 
-export type LearningMode = "daily" | "subject" | "frequency" | "wrong";
+export type LearningMode = "daily" | "subject" | "frequency" | "wrong" | "level";
 
 export type AnswerLog = {
   questionId: string;
@@ -8,6 +8,14 @@ export type AnswerLog = {
   timestamp: number;
   subject: Subject;
   mode: LearningMode;
+  questionType?: string;
+};
+
+export type LevelResult = {
+  levelId: string;
+  stars: 0 | 1 | 2 | 3;
+  completedAt: number;
+  accuracy: number;
 };
 
 export type LearningProgress = {
@@ -15,6 +23,11 @@ export type LearningProgress = {
   correctQuestionIds: string[];
   wrongQuestionIds: string[];
   answerLogs: AnswerLog[];
+  xp: number;
+  streak: number;
+  lastStreakDate?: string;
+  completedLevelIds: string[];
+  levelResults: Record<string, LevelResult>;
 };
 
 export type ErrorRecord = {
@@ -37,8 +50,10 @@ export type QuizSession = {
   id: string;
   mode: LearningMode;
   subject?: Subject;
+  levelId?: string;
   questionIds: string[];
   currentIndex: number;
   startedAt: number;
   completedAt?: number;
+  rewardGranted?: boolean;
 };

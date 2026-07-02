@@ -1,6 +1,7 @@
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { ScreenName } from "../../App";
 import { useLearningStore } from "../store/learningStore";
+import { theme } from "../theme/theme";
 import { Subject, subjectLabels, subjects } from "../types/question";
 import { Page, Panel, SectionTitle } from "./shared";
 
@@ -34,7 +35,7 @@ export function SubjectSelectScreen({
       <ScrollView showsVerticalScrollIndicator={false}>
         <Panel>
           <SectionTitle>按科目刷题</SectionTitle>
-          <Text style={styles.note}>选择一个科目后，系统会生成固定 30 题 session，不会重复回到第一题。</Text>
+          <Text style={styles.note}>选择一个科目，系统会固定生成 30 题 session，连续做题不重复。</Text>
         </Panel>
         {subjects
           .filter((subject) => subject !== "unknown")
@@ -60,30 +61,30 @@ export function SubjectSelectScreen({
 
 const styles = StyleSheet.create({
   note: {
-    color: "#64748b",
-    lineHeight: 21,
+    color: theme.colors.muted,
+    lineHeight: 22,
     fontWeight: "700"
   },
   card: {
-    minHeight: 86,
-    borderRadius: 8,
-    backgroundColor: "#ffffff",
-    borderColor: "#e2e8f0",
+    minHeight: 92,
+    borderRadius: theme.radius.xl,
+    backgroundColor: theme.colors.card,
+    borderColor: theme.colors.border,
     borderWidth: 1,
-    padding: 16,
-    marginBottom: 10,
+    padding: theme.spacing.md,
+    marginBottom: theme.spacing.sm,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    gap: 12
+    gap: theme.spacing.md
   },
   name: {
-    color: "#111827",
-    fontSize: 19,
+    color: theme.colors.text,
+    fontSize: 20,
     fontWeight: "900"
   },
   meta: {
-    color: "#64748b",
+    color: theme.colors.muted,
     fontSize: 13,
     fontWeight: "800",
     marginTop: 4
@@ -92,7 +93,7 @@ const styles = StyleSheet.create({
     alignItems: "flex-end"
   },
   accuracy: {
-    color: "#166534",
+    color: theme.colors.success,
     fontSize: 14,
     fontWeight: "900",
     marginTop: 4

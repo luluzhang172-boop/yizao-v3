@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { theme } from "../theme/theme";
 
 export function Page({ children }: { children: ReactNode }) {
   return <View style={styles.page}>{children}</View>;
@@ -13,14 +14,27 @@ export function SectionTitle({ children }: { children: ReactNode }) {
   return <Text style={styles.sectionTitle}>{children}</Text>;
 }
 
+export function ProgressBar({ value }: { value: number }) {
+  return (
+    <View style={styles.progressTrack}>
+      <View
+        style={[
+          styles.progressFill,
+          { width: `${Math.max(0, Math.min(100, value))}%` as `${number}%` }
+        ]}
+      />
+    </View>
+  );
+}
+
 export function Metric({
   label,
   value,
-  tone = "dark"
+  tone = "primary"
 }: {
   label: string;
   value: string | number;
-  tone?: "dark" | "blue" | "green" | "red";
+  tone?: "primary" | "secondary" | "success" | "danger" | "accent";
 }) {
   return (
     <View style={[styles.metric, styles[tone]]}>
@@ -33,51 +47,70 @@ export function Metric({
 export const styles = StyleSheet.create({
   page: {
     flex: 1,
-    paddingHorizontal: 18,
-    paddingBottom: 12
+    paddingHorizontal: theme.spacing.md,
+    paddingBottom: theme.spacing.sm
   },
   panel: {
-    backgroundColor: "#ffffff",
-    borderRadius: 8,
-    padding: 16,
-    borderColor: "#e5e7eb",
+    backgroundColor: theme.colors.card,
+    borderRadius: theme.radius.lg,
+    padding: theme.spacing.md,
+    borderColor: theme.colors.border,
     borderWidth: 1,
-    marginBottom: 12
+    marginBottom: theme.spacing.md,
+    shadowColor: "#000000",
+    shadowOpacity: 0.06,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 4 }
   },
   sectionTitle: {
-    color: "#111827",
-    fontSize: 17,
+    color: theme.colors.text,
+    fontSize: 18,
     fontWeight: "900",
-    marginBottom: 10
+    marginBottom: theme.spacing.sm,
+    lineHeight: 24
   },
   metric: {
     flex: 1,
-    minHeight: 82,
-    borderRadius: 8,
-    padding: 12,
+    minHeight: 78,
+    borderRadius: theme.radius.lg,
+    padding: theme.spacing.md,
     justifyContent: "center"
   },
-  dark: {
-    backgroundColor: "#111827"
+  primary: {
+    backgroundColor: theme.colors.primary
   },
-  blue: {
-    backgroundColor: "#075985"
+  secondary: {
+    backgroundColor: theme.colors.secondary
   },
-  green: {
-    backgroundColor: "#166534"
+  success: {
+    backgroundColor: theme.colors.success
   },
-  red: {
-    backgroundColor: "#991b1b"
+  danger: {
+    backgroundColor: theme.colors.danger
+  },
+  accent: {
+    backgroundColor: theme.colors.accent
   },
   metricValue: {
     color: "#ffffff",
-    fontSize: 24,
+    fontSize: 23,
     fontWeight: "900"
   },
   metricLabel: {
-    color: "#e5e7eb",
+    color: "#ffffff",
     fontSize: 12,
-    fontWeight: "700",
+    fontWeight: "800",
     marginTop: 4
+  },
+  progressTrack: {
+    height: 12,
+    borderRadius: 999,
+    backgroundColor: "#EFE8DC",
+    overflow: "hidden"
+  },
+  progressFill: {
+    height: "100%",
+    borderRadius: 999,
+    backgroundColor: theme.colors.success
   }
 });
