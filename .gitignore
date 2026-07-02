@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native cache
+.expo/
+.expo-shared/
+
+# Build output
+dist/
+web-build/
+
+# Local logs
+expo-start.log
+expo-start-*.log
+static-preview.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment
+.env.local
+.env.*.local
+
+# Source documents and generated intermediates
+input/
+*.pdf
+output/txt/*.txt
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

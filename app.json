@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "一造通关指南 V3",
+    "slug": "exam-performance-engine",
+    "version": "3.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "scheme": "examengine",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
