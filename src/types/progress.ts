@@ -1,6 +1,32 @@
 import { Subject } from "./question";
 
-export type LearningMode = "daily" | "subject" | "frequency" | "wrong" | "level";
+export type LearningMode =
+  | "daily"
+  | "subject"
+  | "frequency"
+  | "wrong"
+  | "level"
+  | "weak_drill";
+
+export type DailyPlanStepType = "review" | "new_level" | "weak_drill" | "summary";
+
+export type DailyPlanStep = {
+  id: string;
+  type: DailyPlanStepType;
+  title: string;
+  description: string;
+  questionIds: string[];
+  required: boolean;
+  completed: boolean;
+};
+
+export type DailyPlan = {
+  date: string;
+  steps: DailyPlanStep[];
+  totalQuestions: number;
+  completedQuestions: number;
+  isCompleted: boolean;
+};
 
 export type AnswerLog = {
   questionId: string;
@@ -20,6 +46,7 @@ export type LevelResult = {
 
 export type LearningProgress = {
   answeredQuestionIds: string[];
+  seenQuestionIds: string[];
   correctQuestionIds: string[];
   wrongQuestionIds: string[];
   answerLogs: AnswerLog[];
@@ -28,6 +55,11 @@ export type LearningProgress = {
   lastStreakDate?: string;
   completedLevelIds: string[];
   levelResults: Record<string, LevelResult>;
+  dailyPlans: Record<string, DailyPlan>;
+  caseProgress: {
+    masteredCaseIds: string[];
+    weakCaseIds: string[];
+  };
 };
 
 export type ErrorRecord = {
@@ -51,6 +83,7 @@ export type QuizSession = {
   mode: LearningMode;
   subject?: Subject;
   levelId?: string;
+  dailyStepId?: string;
   questionIds: string[];
   currentIndex: number;
   startedAt: number;

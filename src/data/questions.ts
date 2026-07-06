@@ -1,4 +1,4 @@
-import questions from "../../output/questions_v2.json";
+import questions from "./questions_master.json";
 import { Question } from "../types";
 
 type ImportedQuestion = {
@@ -16,6 +16,11 @@ type ImportedQuestion = {
   year?: number;
   type?: string;
   isCaseQuestion?: boolean;
+  sourceFile?: string;
+  sourceFiles?: string[];
+  sourceHash?: string;
+  importBatchId?: string;
+  examAppearCount?: number;
 };
 
 const optionKeys = ["A", "B", "C", "D", "E", "F"];

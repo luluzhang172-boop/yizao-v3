@@ -1,5 +1,6 @@
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { ScreenName } from "../../App";
+import { canUseInLevel } from "../core/questionBank";
 import { useLearningStore } from "../store/learningStore";
 import { theme } from "../theme/theme";
 import { Metric, Page, Panel, SectionTitle } from "./shared";
@@ -13,7 +14,7 @@ export function Review({ navigate }: { navigate: (screen: ScreenName) => void })
 
   const highFrequencyWrong = progress.wrongQuestionIds.filter((id) => {
     const question = questions.find((item) => item.id === id);
-    return (question?.frequencyScore ?? 0) >= 70;
+    return Boolean(question && canUseInLevel(question) && question.frequencyScore >= 70);
   }).length;
   const available = progress.wrongQuestionIds.length + dueSRSIds.length;
 
@@ -21,7 +22,7 @@ export function Review({ navigate }: { navigate: (screen: ScreenName) => void })
     const due = new Set(dueSRSIds);
     const wrong = new Set(progress.wrongQuestionIds);
     const ids = questions
-      .filter((question) => due.has(question.id) || wrong.has(question.id))
+      .filter((question) => canUseInLevel(question) && (due.has(question.id) || wrong.has(question.id)))
       .sort((a, b) => {
         const dueA = due.has(a.id) ? 1 : 0;
         const dueB = due.has(b.id) ? 1 : 0;

@@ -12,7 +12,8 @@ const modeLabels: Record<LearningMode, string> = {
   subject: "按科目",
   frequency: "高频训练",
   wrong: "错题复习",
-  level: "闯关"
+  level: "闯关",
+  weak_drill: "薄弱强化"
 };
 
 const typeLabels: Record<QuestionType, string> = {
@@ -97,7 +98,7 @@ export function Quiz({ navigate }: { navigate: (screen: ScreenName) => void }) {
           style={styles.primaryButton}
           onPress={() => {
             finishSession();
-            navigate(activeSession.mode === "level" ? "levels" : "home");
+            navigate(activeSession.dailyStepId ? "daily" : activeSession.mode === "level" ? "levels" : "home");
           }}
         >
           <Text style={styles.primaryText}>继续学习</Text>

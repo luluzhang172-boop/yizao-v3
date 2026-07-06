@@ -1,0 +1,2343 @@
+[
+  {
+    "id": "measurement-2022-001-f8b58dba",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】粒径大于2mm的颗粒含量超过全重50%的土，称为（ ）。",
+    "options": {
+      "A": "碎石土",
+      "B": "砂土",
+      "C": "黏性土",
+      "D": "粉土"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "碎石土是粒径大于2mm的颗粒含量超过全重50%的土。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "1.【单选】粒径大于2mm的颗粒含量超过全重50%的土，称为（ ）。\nA.  碎石土\nB.  砂土\nC.  黏性土\nD.  粉土\n【答案】A\n解析:碎石土是粒径大于2mm的颗粒含量超过全重50%的土。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-002-b0b1d52e",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】地震的建筑场地烈度相对于基本烈度进行调整的原因有场地内的（ ）。",
+    "options": {
+      "A": "地质条件",
+      "B": "地貌地形条件",
+      "C": "植被条件",
+      "D": "水文地质条件 E.建筑物结构"
+    },
+    "answer": "ABD",
+    "normalizedAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "建筑场地烈度也称小区域烈度，是建筑场地内因地质条件、地貌地形条件和水文地质条 件的不同而引起的相对基本烈度有所降低或提高的烈度，一般降低或提高半度至一度。 第二节 地下水的类型与特征",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "2.【多选】地震的建筑场地烈度相对于基本烈度进行调整的原因有场地内的（ ）。\nA.  地质条件\nB.  地貌地形条件\nC.  植被条件\nD.  水文地质条件\nE.建筑物结构\n【答案】ABD\n解析:建筑场地烈度也称小区域烈度，是建筑场地内因地质条件、地貌地形条件和水文地质条\n件的不同而引起的相对基本烈度有所降低或提高的烈度，一般降低或提高半度至一度。\n第二节 地下水的类型与特征",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-003-6355a913",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】受气象水文要素影响，季节性变化比较明显的地下水是（ ）。",
+    "options": {
+      "A": "潜水",
+      "B": "自流盆地中的水",
+      "C": "岩溶承压水",
+      "D": "自流斜地中的水"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "潜水是埋藏在地表以下第一层较稳定的隔水层以上具有自由水面的重力水，其自由表面 承受大气压力，受气候条件影响，季节性变化明显。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "3.【单选】受气象水文要素影响，季节性变化比较明显的地下水是（ ）。\nA.  潜水\nB.  自流盆地中的水\nC.  岩溶承压水\nD.  自流斜地中的水\n【答案】A\n解析:潜水是埋藏在地表以下第一层较稳定的隔水层以上具有自由水面的重力水，其自由表面\n承受大气压力，受气候条件影响，季节性变化明显。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-004-5ebb1392",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】下列关于承压水特性的说法，正确的是（ ）。",
+    "options": {
+      "A": "承压水压力来自于隔水层的限制",
+      "B": "承压水压力来自于隔水顶板的重力",
+      "C": "承压水压力来自于顶板和底板间的压力",
+      "D": "若有裂隙穿越上下含水层，下部含水层的水可补给上层 E.若有裂隙穿越上下含水层，上部含水层的水可补给下层"
+    },
+    "answer": "AD",
+    "normalizedAnswer": [
+      "A",
+      "D"
+    ],
+    "explanation": "承压水是因为限制在两个隔水层之间而具有一定压力，承压性是承压水的重要特征。当 地形和构造一致时，即为正地形，下部含水层压力高，若有裂隙穿越上下含水层，下部含水层的水通 过裂隙补给上部含水层。反地形，情况相反，上部含水层通过一定的通道补给下部含水层，这是因为 下部含水层的补给与排泄区常位于较低的位置。本题中C和D选项没有明确是正地形还是反地形，理 论上来讲都可以选择，在这里不必过于纠结答案，着重掌握所涉及知识点即可。 第三节 常见工程地质问题及其处理方法",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "4.【多选】下列关于承压水特性的说法，正确的是（ ）。\nA.  承压水压力来自于隔水层的限制\nB.  承压水压力来自于隔水顶板的重力\nC.  承压水压力来自于顶板和底板间的压力\nD.  若有裂隙穿越上下含水层，下部含水层的水可补给上层\nE.若有裂隙穿越上下含水层，上部含水层的水可补给下层\n【答案】ADE\n解析:承压水是因为限制在两个隔水层之间而具有一定压力，承压性是承压水的重要特征。当\n地形和构造一致时，即为正地形，下部含水层压力高，若有裂隙穿越上下含水层，下部含水层的水通\n过裂隙补给上部含水层。反地形，情况相反，上部含水层通过一定的通道补给下部含水层，这是因为\n下部含水层的补给与排泄区常位于较低的位置。本题中C和D选项没有明确是正地形还是反地形，理\n论上来讲都可以选择，在这里不必过于纠结答案，着重掌握所涉及知识点即可。\n第三节 常见工程地质问题及其处理方法",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-005-991f6cbc",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "judgement",
+    "stem": "【单选】对于深层的淤泥及淤泥质土，技术可行，经济合理的处理方式是（ ）。",
+    "options": null,
+    "answer": "正确",
+    "normalizedAnswer": [],
+    "explanation": "C 【答案】对不满足承载力的软弱土层，如淤泥及淤泥质土，浅层的挖除，深层的可以采用振冲等 方法用砂、沙砾、碎石或块石等置换。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "5.【单选】对于深层的淤泥及淤泥质土，技术可行，经济合理的处理方式是（ ）。\nA.  挖除\nB.  水泥灌浆加固\nC.  振冲置换\nD.  预制桩或灌注桩\n解析:C\n【答案】对不满足承载力的软弱土层，如淤泥及淤泥质土，浅层的挖除，深层的可以采用振冲等\n方法用砂、沙砾、碎石或块石等置换。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-006-33a35267",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】大型滑坡体上做截水沟的作用（ ）。",
+    "options": {
+      "A": "截断流向滑坡体的水",
+      "B": "排除滑坡体内的水",
+      "C": "使滑坡体内的水流向下部透水岩层",
+      "D": "防止上部积水"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "为了防止大气降水向岩体中渗透，一般是在滑坡体外围布置截水沟槽，以截断流至滑坡 体上的水流。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "6.【单选】大型滑坡体上做截水沟的作用（ ）。\nA.  截断流向滑坡体的水\nB.  排除滑坡体内的水\nC.  使滑坡体内的水流向下部透水岩层\nD.  防止上部积水\n【答案】A\n解析:为了防止大气降水向岩体中渗透，一般是在滑坡体外围布置截水沟槽，以截断流至滑坡\n体上的水流。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-007-f1f22de7",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】为了防止坚硬整体围岩开挖后表面风化，喷混凝土护壁的厚度一般为（ ）。",
+    "options": {
+      "A": "1～3cm",
+      "B": "3～5cm",
+      "C": "5～7cm",
+      "D": "7～9cm"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "对于坚硬的整体围岩，岩块强度高，整体性好，在地下工程开挖后自身稳定性好，基本 上不存在支护问题。这种情况下喷混凝土的作用主要是防止围岩表面风化，消除开挖后表面的凹凸不 平及防止个别岩块掉落，其喷层厚度一般为3～5cm。 第四节 工程地质对工程建设的影响",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "7.【单选】为了防止坚硬整体围岩开挖后表面风化，喷混凝土护壁的厚度一般为（ ）。\nA.  1～3cm\nB.  3～5cm\nC.  5～7cm\nD.  7～9cm\n【答案】B\n解析:对于坚硬的整体围岩，岩块强度高，整体性好，在地下工程开挖后自身稳定性好，基本\n上不存在支护问题。这种情况下喷混凝土的作用主要是防止围岩表面风化，消除开挖后表面的凹凸不\n平及防止个别岩块掉落，其喷层厚度一般为3～5cm。\n第四节 工程地质对工程建设的影响",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-008-7bd6f493",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】以下对造价起决定性作用的是（ ）。",
+    "options": {
+      "A": "准确的勘察资料",
+      "B": "过程中对不良地质的处理",
+      "C": "选择有利的路线",
+      "D": "工程设计资料的正确性"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "对工程造价的影响可归结为三个方面：一是选择工程地质条件有利的路线，对工程造价 起着决定作用；二是勘察资料的准确性直接影响工程造价；三是由于对特殊不良工程地质问题认识不 足导致的工程造价增加。 第二章 工程构造 第一节 工业与民用建筑工程的分类、组成及构造",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "8.【单选】以下对造价起决定性作用的是（ ）。\nA.  准确的勘察资料\nB.  过程中对不良地质的处理\nC.  选择有利的路线\nD.  工程设计资料的正确性\n【答案】C\n解析:对工程造价的影响可归结为三个方面：一是选择工程地质条件有利的路线，对工程造价\n起着决定作用；二是勘察资料的准确性直接影响工程造价；三是由于对特殊不良工程地质问题认识不\n足导致的工程造价增加。\n第二章 工程构造\n第一节 工业与民用建筑工程的分类、组成及构造",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-009-29e70cf9",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】下列装配式建筑中，适用于软弱地基，经济环保的是（ ）。",
+    "options": {
+      "A": "全预制装配式混凝土结构",
+      "B": "预制装配整体式混凝土结构",
+      "C": "装配式钢结构建筑",
+      "D": "装配式木结构建筑"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "装配式钢结构建筑适用于构件的工厂化生产，可以将设计、生产、施工、安装一体化。 具有自重轻、基础造价低、安装容易、施工快、施工污染环境少、抗震性能好、可回收利用、经济环 保等特点，适用于软弱地基。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "9.【单选】下列装配式建筑中，适用于软弱地基，经济环保的是（ ）。\nA.  全预制装配式混凝土结构\nB.  预制装配整体式混凝土结构\nC.  装配式钢结构建筑\nD.  装配式木结构建筑\n【答案】C\n解析:装配式钢结构建筑适用于构件的工厂化生产，可以将设计、生产、施工、安装一体化。\n具有自重轻、基础造价低、安装容易、施工快、施工污染环境少、抗震性能好、可回收利用、经济环\n保等特点，适用于软弱地基。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-010-73f31a19",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】下列结构体系中，适用于超高层民用居住建筑的是（ ）。",
+    "options": {
+      "A": "混合结构体系",
+      "B": "框架结构体系",
+      "C": "剪力墙体系",
+      "D": "筒体结构体系"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "在高层建筑中，特别是超高层建筑中，水平荷载越来越大，起着控制作用。筒体结构是 抵抗水平荷载最有效的结构体系。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "10.【单选】下列结构体系中，适用于超高层民用居住建筑的是（ ）。\nA.  混合结构体系\nB.  框架结构体系\nC.  剪力墙体系\nD.  筒体结构体系\n【答案】D\n解析:在高层建筑中，特别是超高层建筑中，水平荷载越来越大，起着控制作用。筒体结构是\n抵抗水平荷载最有效的结构体系。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-011-997480c6",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】悬索结构的跨中垂度一般为跨度的（ ）。",
+    "options": {
+      "A": "1/12",
+      "B": "1/15",
+      "C": "1/20",
+      "D": "1/30"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "索的拉力取决于跨中的垂度，垂度越小，拉力越大。索的垂度一般为跨度的1/30。索的 合理轴线形状随荷载的作用方式而变化。此知识点2023教材已删除。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "11.【单选】悬索结构的跨中垂度一般为跨度的（ ）。\nA.  1/12\nB.  1/15\nC.  1/20\nD.  1/30\n【答案】D\n解析:索的拉力取决于跨中的垂度，垂度越小，拉力越大。索的垂度一般为跨度的1/30。索的\n合理轴线形状随荷载的作用方式而变化。此知识点2023教材已删除。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-012-061e3460",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】下列结构体系中，构件主要承受轴向力的有（ ）。",
+    "options": {
+      "A": "砖混结构",
+      "B": "框架结构",
+      "C": "桁架结构",
+      "D": "网架结构 E.拱式结构"
+    },
+    "answer": "CD",
+    "normalizedAnswer": [
+      "C",
+      "D"
+    ],
+    "explanation": "桁架是由杆件组成的结构体系。在进行内力分析时，节点一般假定为铰节点，当荷载作 用在节点上时，杆件只有轴向力，其材料的强度可得到充分发挥。网架结构可分为平板网架和曲面网 架。其中，平板网架采用较多，其优点是空间受力体系，杆件主要承受轴向力，受力合理，节约材料， 整体性能好，刚度大，抗震性能好。拱是一种有推力的结构，其主要内力是轴向压力。轴向力包括轴 向拉力和轴向压力。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "12.【多选】下列结构体系中，构件主要承受轴向力的有（ ）。\nA.  砖混结构\nB.  框架结构\nC.  桁架结构\nD.  网架结构\nE.拱式结构\n【答案】CDE\n解析:桁架是由杆件组成的结构体系。在进行内力分析时，节点一般假定为铰节点，当荷载作\n用在节点上时，杆件只有轴向力，其材料的强度可得到充分发挥。网架结构可分为平板网架和曲面网\n架。其中，平板网架采用较多，其优点是空间受力体系，杆件主要承受轴向力，受力合理，节约材料，\n整体性能好，刚度大，抗震性能好。拱是一种有推力的结构，其主要内力是轴向压力。轴向力包括轴\n向拉力和轴向压力。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-013-a631bd9b",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】保持被动式节能建筑舒适温度的热量来源有（ ）。",
+    "options": {
+      "A": "燃煤",
+      "B": "供暖",
+      "C": "人体",
+      "D": "家电 E.热回收装置"
+    },
+    "answer": "CD",
+    "normalizedAnswer": [
+      "C",
+      "D"
+    ],
+    "explanation": "被动式节能建筑不需要主动加热，基本上是依靠被动收集来的热量使房屋本身保持一个 舒适的温度。使用太阳、人体、家电及热回收装置等带来的热能，不需要主动热源供给。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "13.【多选】保持被动式节能建筑舒适温度的热量来源有（ ）。\nA.  燃煤\nB.  供暖\nC.  人体\nD.  家电\nE.热回收装置\n【答案】CDE\n解析:被动式节能建筑不需要主动加热，基本上是依靠被动收集来的热量使房屋本身保持一个\n舒适的温度。使用太阳、人体、家电及热回收装置等带来的热能，不需要主动热源供给。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-014-7dfc80c7",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】在外墙聚苯板保温层上覆盖钢丝网的作用是（ ）。",
+    "options": {
+      "A": "固定保温层",
+      "B": "防止保温层开裂",
+      "C": "加强块料保温层的整体性",
+      "D": "防止面层结构开裂、脱落"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "薄型抹灰面层是在保温层的外表面上涂抹聚合物水泥砂浆，施工时分为底涂层和面涂层， 直接涂抹于保温层上的为底涂层，厚度一般为4～7mm，在底涂层的内部设置有玻璃纤维网格或钢丝网 等加强材料，加强材料与底涂层结合为一体，它的作用是改善抹灰层的机械强度，保证其连续性，分 散面层的收缩应力与温度应力，防止面层出现裂纹。此知识点2023教材已删除。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "14.【单选】在外墙聚苯板保温层上覆盖钢丝网的作用是（ ）。\nA.  固定保温层\nB.  防止保温层开裂\nC.  加强块料保温层的整体性\nD.  防止面层结构开裂、脱落\n【答案】D\n解析:薄型抹灰面层是在保温层的外表面上涂抹聚合物水泥砂浆，施工时分为底涂层和面涂层，\n直接涂抹于保温层上的为底涂层，厚度一般为4～7mm，在底涂层的内部设置有玻璃纤维网格或钢丝网\n等加强材料，加强材料与底涂层结合为一体，它的作用是改善抹灰层的机械强度，保证其连续性，分\n散面层的收缩应力与温度应力，防止面层出现裂纹。此知识点2023教材已删除。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-015-c013dcd0",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】在外墙内保温结构中，为防止冬季采暖房间形成水蒸气渗入保温层，通常采用的做 法为（ ）。",
+    "options": {
+      "A": "在保温层靠室内一侧加防潮层",
+      "B": "在保温层与主体结构之间加防潮层",
+      "C": "在保温层靠室内一侧加隔汽层",
+      "D": "在保温层与主体结构之间加隔汽层"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "水蒸气不容易穿过主体结构墙，处理不好往往会在保温层中产生水蒸气的凝结水，影响 保温性能。通常的处理方法是在保温层靠室内的一侧加设隔汽层，让水蒸气不要进入保温层内部。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "15.【单选】在外墙内保温结构中，为防止冬季采暖房间形成水蒸气渗入保温层，通常采用的做\n法为（ ）。\nA.  在保温层靠室内一侧加防潮层\nB.  在保温层与主体结构之间加防潮层\nC.  在保温层靠室内一侧加隔汽层\nD.  在保温层与主体结构之间加隔汽层\n【答案】C\n解析:水蒸气不容易穿过主体结构墙，处理不好往往会在保温层中产生水蒸气的凝结水，影响\n保温性能。通常的处理方法是在保温层靠室内的一侧加设隔汽层，让水蒸气不要进入保温层内部。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-016-1419f5a9",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】楼梯踏步防滑条常用的材料有（ ）。",
+    "options": {
+      "A": "金刚砂",
+      "B": "马赛克",
+      "C": "橡皮条",
+      "D": "金属材料 E.玻璃"
+    },
+    "answer": "ABCD",
+    "normalizedAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "防滑条的材料主要有：金刚砂、马赛克、橡皮条和金属材料等。 第二节 道路、桥梁、涵洞工程的分类、组成及构造",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "16.【多选】楼梯踏步防滑条常用的材料有（ ）。\nA.  金刚砂\nB.  马赛克\nC.  橡皮条\nD.  金属材料\nE.玻璃\n【答案】ABCD\n解析:防滑条的材料主要有：金刚砂、马赛克、橡皮条和金属材料等。\n第二节 道路、桥梁、涵洞工程的分类、组成及构造",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-017-2b700070",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】可以设置公共建筑出入口，但相邻出入口的间距不宜小于80m的城市道路是（ ）。",
+    "options": {
+      "A": "快速路",
+      "B": "主干路",
+      "C": "次干路",
+      "D": "支路"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "次干路两侧可设置公共建筑物的出入口，但相邻出入口的间距不宜小于80m，且该出入 口位置应在临近交叉口的功能区之外。此知识点2023教材已修改，修改后内容如下：次干路是城市 区域性的交通干道，为区域交通集散服务，兼有服务功能，结合主干路组成干路网。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "17.【单选】可以设置公共建筑出入口，但相邻出入口的间距不宜小于80m的城市道路是（ ）。\nA.  快速路\nB.  主干路\nC.  次干路\nD.  支路\n【答案】C\n解析:次干路两侧可设置公共建筑物的出入口，但相邻出入口的间距不宜小于80m，且该出入\n口位置应在临近交叉口的功能区之外。此知识点2023教材已修改，修改后内容如下：次干路是城市\n区域性的交通干道，为区域交通集散服务，兼有服务功能，结合主干路组成干路网。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-018-3d047cd0",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】下列路基形式中，每隔15～20m应设置一道伸缩缝的是（ ）。",
+    "options": {
+      "A": "填土路基",
+      "B": "填石路基",
+      "C": "砌石路基",
+      "D": "挖方路基"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "砌石路基应每隔15～20m设伸缩缝一道。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "18.【单选】下列路基形式中，每隔15～20m应设置一道伸缩缝的是（ ）。\nA.  填土路基\nB.  填石路基\nC.  砌石路基\nD.  挖方路基\n【答案】C\n解析:砌石路基应每隔15～20m设伸缩缝一道。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-019-ce02eed7",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】为保证车辆在停车场区内不因自重引起滑溜，要求停车场与通道垂直方向的最大纵 坡为（ ）。",
+    "options": {
+      "A": "1%",
+      "B": "1.5%",
+      "C": "2%",
+      "D": "3%"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "为了保证车辆在停放区内停入时不致发生自重分力引起滑溜，导致交通事故，因而要求 停车场的最大纵坡与通道平行方向为1%，与通道垂直方向为3%。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "19.【单选】为保证车辆在停车场区内不因自重引起滑溜，要求停车场与通道垂直方向的最大纵\n坡为（ ）。\nA.  1%\nB.  1.5%\nC.  2%\nD.  3%\n【答案】D\n解析:为了保证车辆在停放区内停入时不致发生自重分力引起滑溜，导致交通事故，因而要求\n停车场的最大纵坡与通道平行方向为1%，与通道垂直方向为3%。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-020-9b1f4bfa",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】在设计桥面较宽的预应力混凝土梁桥和跨度较大的斜交桥和弯桥时，宜采用的桥梁 结构为（ ）。",
+    "options": {
+      "A": "简支板桥",
+      "B": "肋梁式简支梁桥",
+      "C": "箱形简支梁桥",
+      "D": "悬索桥"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "箱形简支梁桥主要用于预应力混凝土梁桥。尤其适用于桥面较宽的预应力混凝土桥梁结 构和跨度较大的斜交桥和弯桥。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "20.【单选】在设计桥面较宽的预应力混凝土梁桥和跨度较大的斜交桥和弯桥时，宜采用的桥梁\n结构为（ ）。\nA.  简支板桥\nB.  肋梁式简支梁桥\nC.  箱形简支梁桥\nD.  悬索桥\n【答案】C\n解析:箱形简支梁桥主要用于预应力混凝土梁桥。尤其适用于桥面较宽的预应力混凝土桥梁结\n构和跨度较大的斜交桥和弯桥。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-021-20ab3836",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】以下属于桥梁下部结构的有（ ）。",
+    "options": {
+      "A": "桥墩",
+      "B": "桥台",
+      "C": "桥梁支座",
+      "D": "墩台基础 E.桥面构造"
+    },
+    "answer": "ABD",
+    "normalizedAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "下部结构是指桥梁结构中设置在地基上用于支承桥跨结构，将其荷载传递至地基的结构 部分。一般包括桥墩、桥台及墩台基础。 第三节 地下工程的分类、组成及构造",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "21.【多选】以下属于桥梁下部结构的有（ ）。\nA.  桥墩\nB.  桥台\nC.  桥梁支座\nD.  墩台基础\nE.桥面构造\n【答案】ABD\n解析:下部结构是指桥梁结构中设置在地基上用于支承桥跨结构，将其荷载传递至地基的结构\n部分。一般包括桥墩、桥台及墩台基础。\n第三节 地下工程的分类、组成及构造",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-022-5ce5bb42",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】在设计城市地下管网时，常规做法是在人行道下方设置（ ）。",
+    "options": {
+      "A": "热力管网",
+      "B": "自来水管道",
+      "C": "污水管道",
+      "D": "煤气管道"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "建筑物与红线之间的地带，用于敷设电缆；人行道用于敷设热力管网或通行式综合管道； 分车带用于敷设自来水、污水、煤气管道及照明电缆；街道宽度超过60m时，自来水和污水管道都应 设在街道内两侧。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "22.【单选】在设计城市地下管网时，常规做法是在人行道下方设置（ ）。\nA.  热力管网\nB.  自来水管道\nC.  污水管道\nD.  煤气管道\n【答案】A\n解析:建筑物与红线之间的地带，用于敷设电缆；人行道用于敷设热力管网或通行式综合管道；\n分车带用于敷设自来水、污水、煤气管道及照明电缆；街道宽度超过60m时，自来水和污水管道都应\n设在街道内两侧。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-023-2ef576ed",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】市政的缆线共同沟应埋设在街道的（ ）。",
+    "options": {
+      "A": "建筑物与红线之间地带下方",
+      "B": "分车带下方",
+      "C": "中心线下方",
+      "D": "人行道下方"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "缆线共同沟埋设在人行道下。 第三章 工程材料 第一节 建筑结构材料",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "23.【单选】市政的缆线共同沟应埋设在街道的（ ）。\nA.  建筑物与红线之间地带下方\nB.  分车带下方\nC.  中心线下方\nD.  人行道下方\n【答案】D\n解析:缆线共同沟埋设在人行道下。\n第三章 工程材料\n第一节 建筑结构材料",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-024-eae3bbc5",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】冷轧带肋钢筋中，既可用于普通钢筋混凝土用钢筋，也可以用于预应力混凝土结构 钢筋的是（ ）。",
+    "options": {
+      "A": "CRB650",
+      "B": "CRB800",
+      "C": "CRB680H",
+      "D": "CRB800H"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "CRB680H既可作为普通钢筋混凝土用钢筋，也可作为预应力混凝土用钢筋。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "24.【单选】冷轧带肋钢筋中，既可用于普通钢筋混凝土用钢筋，也可以用于预应力混凝土结构\n钢筋的是（ ）。\nA.  CRB650\nB.  CRB800\nC.  CRB680H\nD.  CRB800H\n【答案】C\n解析:CRB680H既可作为普通钢筋混凝土用钢筋，也可作为预应力混凝土用钢筋。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-025-a4f6df54",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】下列常用水泥中，适用于大体积混凝土工程的有（ ）。",
+    "options": {
+      "A": "硅酸盐水泥",
+      "B": "普通硅酸盐水泥",
+      "C": "矿渣硅酸盐水泥",
+      "D": "火山灰质硅酸盐水泥 E.粉煤灰硅酸盐水泥"
+    },
+    "answer": "CD",
+    "normalizedAnswer": [
+      "C",
+      "D"
+    ],
+    "explanation": "大体积混凝土应该选择水化热较小的水泥，故正确答案为CDE。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "25.【多选】下列常用水泥中，适用于大体积混凝土工程的有（ ）。\nA.  硅酸盐水泥\nB.  普通硅酸盐水泥\nC.  矿渣硅酸盐水泥\nD.  火山灰质硅酸盐水泥\nE.粉煤灰硅酸盐水泥\n【答案】CDE\n解析:大体积混凝土应该选择水化热较小的水泥，故正确答案为CDE。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-026-af547e85",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】决定石油沥青温度敏感性和黏性的重要组分是（ ）。",
+    "options": {
+      "A": "油分",
+      "B": "树脂",
+      "C": "沥青质",
+      "D": "沥青碳"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "地沥青质是决定石油沥青温度敏感性、黏性的重要组成部分，其含量越多，则软化点越 高，黏性越大，也越硬脆。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "26.【单选】决定石油沥青温度敏感性和黏性的重要组分是（ ）。\nA.  油分\nB.  树脂\nC.  沥青质\nD.  沥青碳\n【答案】C\n解析:地沥青质是决定石油沥青温度敏感性、黏性的重要组成部分，其含量越多，则软化点越\n高，黏性越大，也越硬脆。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-027-f6685815",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】下列关于粗骨料颗粒级配说法正确的是（ ）。",
+    "options": {
+      "A": "混凝土间断级配比连续级配和易性好",
+      "B": "混凝土连续级配比间断级配易离析",
+      "C": "相比于间断级配，混凝土连续级配适用于机械振捣流动性低的干硬性拌合物",
+      "D": "连续级配是现浇混凝土最常用的级配形式"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "连续级配比间断级配水泥用量稍多，但其拌制的混凝土流动性和黏聚性均较好，是现浇 混凝土中最常用的一种级配形式。间断级配是省去一级或几级中间粒级的集料级配，其大颗粒之间空 隙由比它小几倍的小颗粒来填充，减少空隙率，节约水泥。但由于颗粒相差较大，混凝土拌和物易产 生离析现象。因此，间断级配较适用于机械振捣流动性低的干硬性拌和物。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "27.【单选】下列关于粗骨料颗粒级配说法正确的是（ ）。\nA.  混凝土间断级配比连续级配和易性好\nB.  混凝土连续级配比间断级配易离析\nC.  相比于间断级配，混凝土连续级配适用于机械振捣流动性低的干硬性拌合物\nD.  连续级配是现浇混凝土最常用的级配形式\n【答案】D\n解析:连续级配比间断级配水泥用量稍多，但其拌制的混凝土流动性和黏聚性均较好，是现浇\n混凝土中最常用的一种级配形式。间断级配是省去一级或几级中间粒级的集料级配，其大颗粒之间空\n隙由比它小几倍的小颗粒来填充，减少空隙率，节约水泥。但由于颗粒相差较大，混凝土拌和物易产\n生离析现象。因此，间断级配较适用于机械振捣流动性低的干硬性拌和物。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-028-d27cf01d",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】具有改善混凝土流变性能，又能改善混凝土耐久性的外加剂是（ ）。",
+    "options": {
+      "A": "速凝剂",
+      "B": "引气剂",
+      "C": "缓凝剂",
+      "D": "加气剂"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "引气剂是在混凝土搅拌过程中，能引入大量分布均匀的稳定而封密的微小气泡，以减少 拌和物泌水离析、改善和易性，同时显著提高硬化混凝土抗冻融耐久性的外加剂。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "28.【单选】具有改善混凝土流变性能，又能改善混凝土耐久性的外加剂是（ ）。\nA.  速凝剂\nB.  引气剂\nC.  缓凝剂\nD.  加气剂\n【答案】B\n解析:引气剂是在混凝土搅拌过程中，能引入大量分布均匀的稳定而封密的微小气泡，以减少\n拌和物泌水离析、改善和易性，同时显著提高硬化混凝土抗冻融耐久性的外加剂。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-029-d5a8e2b3",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】普通混凝土和易性最敏感的影响因素是（ ）。",
+    "options": {
+      "A": "砂率",
+      "B": "水泥浆",
+      "C": "温度和时间",
+      "D": "骨料品种与品质"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "水泥浆是普通混凝土和易性最敏感的影响因素。此知识点2023教材有改。修改后的内 容为：影响混凝土拌和物和易性的主要因素包括单位体积用水量、砂率、组成材料的性质、时间和温 度等。单位体积用水量决定水泥浆的数量和稠度，它是影响混凝土和易性的最主要因素。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "29.【单选】普通混凝土和易性最敏感的影响因素是（ ）。\nA.  砂率\nB.  水泥浆\nC.  温度和时间\nD.  骨料品种与品质\n【答案】B\n解析:水泥浆是普通混凝土和易性最敏感的影响因素。此知识点2023教材有改。修改后的内\n容为：影响混凝土拌和物和易性的主要因素包括单位体积用水量、砂率、组成材料的性质、时间和温\n度等。单位体积用水量决定水泥浆的数量和稠度，它是影响混凝土和易性的最主要因素。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-030-34f30afb",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】关于高性能混凝土，下列说法正确的有（ ）。",
+    "options": {
+      "A": "体积稳定性高",
+      "B": "可减少结构断面、降低钢筋用量",
+      "C": "耐高温性好",
+      "D": "早期收缩率随着早期强度提高而增大 E.具有较高的密实性和抗渗性"
+    },
+    "answer": "AD",
+    "normalizedAnswer": [
+      "A",
+      "D"
+    ],
+    "explanation": "高性能混凝土体积稳定性高。高强混凝土可减少结构断面，降低钢筋用量，增加房屋使 用面积和有效空间，减轻地基负荷。高性能混凝土在高温作用下会产生爆裂、剥落，耐高温（火）差。 高性能混凝土的早期收缩率，随着早期强度的提高而增大。高性能混凝土具有较高的密实性和抗渗性， 其抗化学腐蚀性能显著优于普通强度混凝土。 第二节 建筑装饰材料",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "30.【多选】关于高性能混凝土，下列说法正确的有（ ）。\nA.  体积稳定性高\nB.  可减少结构断面、降低钢筋用量\nC.  耐高温性好\nD.  早期收缩率随着早期强度提高而增大\nE.具有较高的密实性和抗渗性\n【答案】ADE\n解析:高性能混凝土体积稳定性高。高强混凝土可减少结构断面，降低钢筋用量，增加房屋使\n用面积和有效空间，减轻地基负荷。高性能混凝土在高温作用下会产生爆裂、剥落，耐高温（火）差。\n高性能混凝土的早期收缩率，随着早期强度的提高而增大。高性能混凝土具有较高的密实性和抗渗性，\n其抗化学腐蚀性能显著优于普通强度混凝土。\n第二节 建筑装饰材料",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-031-f9c6fc86",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】与花岗石板材相比，天然大理石板材的缺点是（ ）。",
+    "options": {
+      "A": "耐火性差",
+      "B": "抗风化性能差",
+      "C": "吸水率低",
+      "D": "高温下会发生晶型转变"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "因其抗风化性能较差，故除个别品种（含石英为主的砂岩及石曲岩）外一般不宜用作室 外装饰。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "31.【单选】与花岗石板材相比，天然大理石板材的缺点是（ ）。\nA.  耐火性差\nB.  抗风化性能差\nC.  吸水率低\nD.  高温下会发生晶型转变\n【答案】B\n解析:因其抗风化性能较差，故除个别品种（含石英为主的砂岩及石曲岩）外一般不宜用作室\n外装饰。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-032-d41807c4",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】下列饰面陶瓷中，可用作室外铺贴的是（ ）。",
+    "options": {
+      "A": "瓷砖",
+      "B": "釉面砖",
+      "C": "墙地砖",
+      "D": "马赛克"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "墙地砖是墙砖和地砖的总称。该类产品作为墙面、地面装饰都可使用，故称为墙地砖， 实际上包括建筑物外墙装饰贴面用砖和室内外地面装饰铺贴用砖。釉面砖又称瓷砖，不应用于室外。 陶瓷锦砖俗称马赛克，主要用于室内地面铺装。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "32.【单选】下列饰面陶瓷中，可用作室外铺贴的是（ ）。\nA.  瓷砖\nB.  釉面砖\nC.  墙地砖\nD.  马赛克\n【答案】C\n解析:墙地砖是墙砖和地砖的总称。该类产品作为墙面、地面装饰都可使用，故称为墙地砖，\n实际上包括建筑物外墙装饰贴面用砖和室内外地面装饰铺贴用砖。釉面砖又称瓷砖，不应用于室外。\n陶瓷锦砖俗称马赛克，主要用于室内地面铺装。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-033-523fef31",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】下列建筑装饰玻璃中，兼具保温、隔热和隔声性能的有（ ）。",
+    "options": {
+      "A": "中空玻璃",
+      "B": "夹层玻璃",
+      "C": "真空玻璃",
+      "D": "钢化玻璃 E.镀膜玻璃"
+    },
+    "answer": "AC",
+    "normalizedAnswer": [
+      "A",
+      "C"
+    ],
+    "explanation": "中空玻璃主要用于保温隔热、隔声等功能要求较高的建筑物，如宾馆、住宅、医院、商 场、写字楼等，也广泛用于车船等交通工具。真空玻璃比中空玻璃有更好的隔热、隔声性能。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "33.【多选】下列建筑装饰玻璃中，兼具保温、隔热和隔声性能的有（ ）。\nA.  中空玻璃\nB.  夹层玻璃\nC.  真空玻璃\nD.  钢化玻璃\nE.镀膜玻璃\n【答案】AC\n解析:中空玻璃主要用于保温隔热、隔声等功能要求较高的建筑物，如宾馆、住宅、医院、商\n场、写字楼等，也广泛用于车船等交通工具。真空玻璃比中空玻璃有更好的隔热、隔声性能。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-034-8b8a1b5f",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】下列常用的塑料管材中，可应用于饮用水管的有（ ）。",
+    "options": {
+      "A": "PVC-U",
+      "B": "PVC-C",
+      "C": "PP-R",
+      "D": "PB E.PEX"
+    },
+    "answer": "CD",
+    "normalizedAnswer": [
+      "C",
+      "D"
+    ],
+    "explanation": "硬聚氯乙烯（PVC-U）管主要应用于给水管道（非饮用水）、排水管道、雨水管道。氯 化聚氯乙烯（PVC- C. 管因其使用的胶水有毒性，一般不用于饮用水管道系统。 第三节 建筑功能材料",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "34.【多选】下列常用的塑料管材中，可应用于饮用水管的有（ ）。\nA.  PVC-U\nB.  PVC-C\nC.  PP-R\nD.  PB\nE.PEX\n【答案】CDE\n解析:硬聚氯乙烯（PVC-U）管主要应用于给水管道（非饮用水）、排水管道、雨水管道。氯\n化聚氯乙烯（PVC-\nC.  管因其使用的胶水有毒性，一般不用于饮用水管道系统。\n第三节 建筑功能材料",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-035-04a1df89",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】以下卷材类型中，特别适用于强烈阳光照射条件的卷材是（ ）。",
+    "options": {
+      "A": "SBS改性沥青防水卷材",
+      "B": "APP改性沥青防水卷材",
+      "C": "氯化聚乙烯防水卷材",
+      "D": "氯化聚乙烯-橡胶共混型防水卷材"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "APP改性沥青防水卷材，该类防水卷材广泛适用于各类建筑防水、防潮工程，尤其适用 于高温或有强烈太阳辐射地区的建筑物防水。 第四章 工程施工技术 第一节 建筑工程施工技术",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "35.【单选】以下卷材类型中，特别适用于强烈阳光照射条件的卷材是（ ）。\nA.  SBS改性沥青防水卷材\nB.  APP改性沥青防水卷材\nC.  氯化聚乙烯防水卷材\nD.  氯化聚乙烯-橡胶共混型防水卷材\n【答案】B\n解析:APP改性沥青防水卷材，该类防水卷材广泛适用于各类建筑防水、防潮工程，尤其适用\n于高温或有强烈太阳辐射地区的建筑物防水。\n第四章 工程施工技术\n第一节 建筑工程施工技术",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-036-3967e36b",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】开挖深度为3m，湿度小的黏性土的沟槽，适合采用的支护方式是（ ）。",
+    "options": {
+      "A": "重力式支护结构",
+      "B": "垂直挡土板支撑",
+      "C": "板式支护结构",
+      "D": "水平挡土板支撑"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "水平挡土板式的布置又分间断式和连续式两种。湿度小的黏性土挖土深度小于3m时， 可用间断式水平挡土板支撑；对松散、湿度大的土可用连续式水平挡土板支撑，挖土深度可达5m。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "36.【单选】开挖深度为3m，湿度小的黏性土的沟槽，适合采用的支护方式是（ ）。\nA.  重力式支护结构\nB.  垂直挡土板支撑\nC.  板式支护结构\nD.  水平挡土板支撑\n【答案】D\n解析:水平挡土板式的布置又分间断式和连续式两种。湿度小的黏性土挖土深度小于3m时，\n可用间断式水平挡土板支撑；对松散、湿度大的土可用连续式水平挡土板支撑，挖土深度可达5m。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-037-115f6958",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】关于轻型井点的布置，下列说法正确的有（ ）。",
+    "options": {
+      "A": "环形布置适用于大面积基坑",
+      "B": "双排布置适用于土质不良的情况",
+      "C": "U形布置适用于宽度不大于6m的情况",
+      "D": "单排布置适用于基坑宽度小于6m，且降水深度不超过5m的情况 E.Ｕ形布置井点管不封闭的一段应该在地下水的下游方向"
+    },
+    "answer": "ABD",
+    "normalizedAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "单排布置适用于基坑、槽宽度小于6m，且降水深度不超过5m的情况。双排布置适用于 基坑宽度大于6m或土质不良的情况。如采用U形布置，则井点管不封闭的一段应设在地下水的下游 方向。环形布置适用于大面积基坑。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "37.【多选】关于轻型井点的布置，下列说法正确的有（ ）。\nA.  环形布置适用于大面积基坑\nB.  双排布置适用于土质不良的情况\nC.  U形布置适用于宽度不大于6m的情况\nD.  单排布置适用于基坑宽度小于6m，且降水深度不超过5m的情况\nE.Ｕ形布置井点管不封闭的一段应该在地下水的下游方向\n【答案】ABDE\n解析:单排布置适用于基坑、槽宽度小于6m，且降水深度不超过5m的情况。双排布置适用于\n基坑宽度大于6m或土质不良的情况。如采用U形布置，则井点管不封闭的一段应设在地下水的下游\n方向。环形布置适用于大面积基坑。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-038-79bd6553",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】关于土石方工程施工机械，以下说法正确的是（ ）。",
+    "options": {
+      "A": "铲运机适用于坡度在20°以上的大面积场地平整",
+      "B": "分批集中、一次推送法，能减少土的散失",
+      "C": "铲运机的运距为30～60m时效率最高",
+      "D": "抓铲挖掘机特别适于水下挖土"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "铲运机常用于坡度在20°以内的大面积场地平整。并列推土法能减少土的散失。推土机 的经济运距在100m以内，以30～60m为最佳运距。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "38.【单选】关于土石方工程施工机械，以下说法正确的是（ ）。\nA.  铲运机适用于坡度在20°以上的大面积场地平整\nB.  分批集中、一次推送法，能减少土的散失\nC.  铲运机的运距为30～60m时效率最高\nD.  抓铲挖掘机特别适于水下挖土\n【答案】D\n解析:铲运机常用于坡度在20°以内的大面积场地平整。并列推土法能减少土的散失。推土机\n的经济运距在100m以内，以30～60m为最佳运距。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-039-5345645a",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】下列可以用作填土的是（ ）。",
+    "options": {
+      "A": "膨胀性土",
+      "B": "含有机物大于5%的土",
+      "C": "砂土、爆破石渣",
+      "D": "含水量大的黏土"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "碎石类土、砂土、爆破石渣及含水量符合压实要求的黏性土可作为填方土料。淤泥、冻 土、膨胀土及有机物含量大于5%的土，以及硫酸盐含量大于5%的土均不能做填土。填方土料为黏性 土时，填土前应检验其含水量是否在控制范围以内，含水量大的黏土不宜做填土用。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "39.【单选】下列可以用作填土的是（ ）。\nA.  膨胀性土\nB.  含有机物大于5%的土\nC.  砂土、爆破石渣\nD.  含水量大的黏土\n【答案】C\n解析:碎石类土、砂土、爆破石渣及含水量符合压实要求的黏性土可作为填方土料。淤泥、冻\n土、膨胀土及有机物含量大于5%的土，以及硫酸盐含量大于5%的土均不能做填土。填方土料为黏性\n土时，填土前应检验其含水量是否在控制范围以内，含水量大的黏土不宜做填土用。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-040-28cf4e58",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】地基加固处理方法中，排水固结法的关键问题是（ ）。",
+    "options": {
+      "A": "预压荷载",
+      "B": "预压时间",
+      "C": "防震隔震措施",
+      "D": "竖向排水体设置"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "预压地基又称排水固结法地基（注意大小名的对应），预压荷载是其中的关键问题，因 为施加预压荷载后才能引起地基土的排水固结。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "40.【单选】地基加固处理方法中，排水固结法的关键问题是（ ）。\nA.  预压荷载\nB.  预压时间\nC.  防震隔震措施\nD.  竖向排水体设置\n【答案】A\n解析:预压地基又称排水固结法地基（注意大小名的对应），预压荷载是其中的关键问题，因\n为施加预压荷载后才能引起地基土的排水固结。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-041-d479049d",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】混凝土预制桩的起吊和运输所达到的强度分别为（ ）。",
+    "options": {
+      "A": "70%和95%",
+      "B": "70%和100%",
+      "C": "85%和95%",
+      "D": "85%和100%"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "钢筋混凝土预制桩应在混凝土达到设计强度的70%方可起吊；达到100%方可运输和打桩。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "41.【单选】混凝土预制桩的起吊和运输所达到的强度分别为（ ）。\nA.  70%和95%\nB.  70%和100%\nC.  85%和95%\nD.  85%和100%\n【答案】B\n解析:钢筋混凝土预制桩应在混凝土达到设计强度的70%方可起吊；达到100%方可运输和打桩。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-042-f1dd29de",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】正常施工条件下，石砌体每日砌筑的高度宜控制在（ ）。",
+    "options": {
+      "A": "1.2m以内",
+      "B": "1.5m以内",
+      "C": "1.8m以内",
+      "D": "2.3m以内"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "正常施工条件下，砖砌体、小砌块砌体每日砌筑高度宜控制在1.5m或一步脚手架高度 内；石砌体不宜超过1.2m。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "42.【单选】正常施工条件下，石砌体每日砌筑的高度宜控制在（ ）。\nA.  1.2m以内\nB.  1.5m以内\nC.  1.8m以内\nD.  2.3m以内\n【答案】A\n解析:正常施工条件下，砖砌体、小砌块砌体每日砌筑高度宜控制在1.5m或一步脚手架高度\n内；石砌体不宜超过1.2m。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-043-3abe19d4",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】关于扣件式钢管脚手架的搭设与拆除，下列说法正确的是（ ）。",
+    "options": {
+      "A": "垫板应准确的放在定位线上，宽度不大于200mm",
+      "B": "高度24m的双排脚手架必须采用刚性连墙件",
+      "C": "同层杆件须先内后外的顺序拆除",
+      "D": "连墙件必须随脚手架逐层拆除"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "底座、垫板均应准确地放在定位线上；垫板应采用长度不少于2跨、厚度不小于50mm、 宽度不小于200mm的木垫板，故A错。对高度24m及以下的单、双排脚手架，宜采用刚性连墙件与建 筑物可靠连接，也可采用钢筋与顶撑配合使用的附墙连接方式。严禁使用只有钢筋的柔性连墙件。对 高度24m以上的双排脚手架，必须采用刚性连墙件与建筑物可靠连接，故B错。同层杆件和构配件必 须按先外后内的顺序拆除，故C错。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "43.【单选】关于扣件式钢管脚手架的搭设与拆除，下列说法正确的是（ ）。\nA.  垫板应准确的放在定位线上，宽度不大于200mm\nB.  高度24m的双排脚手架必须采用刚性连墙件\nC.  同层杆件须先内后外的顺序拆除\nD.  连墙件必须随脚手架逐层拆除\n【答案】D\n解析:底座、垫板均应准确地放在定位线上；垫板应采用长度不少于2跨、厚度不小于50mm、\n宽度不小于200mm的木垫板，故A错。对高度24m及以下的单、双排脚手架，宜采用刚性连墙件与建\n筑物可靠连接，也可采用钢筋与顶撑配合使用的附墙连接方式。严禁使用只有钢筋的柔性连墙件。对\n高度24m以上的双排脚手架，必须采用刚性连墙件与建筑物可靠连接，故B错。同层杆件和构配件必\n须按先外后内的顺序拆除，故C错。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-044-60e1da62",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】适用于竖向较大直径变形钢筋连接的方式是（ ）。",
+    "options": {
+      "A": "钢筋螺纹套管连接",
+      "B": "钢筋套筒挤压连接",
+      "C": "电渣压力焊",
+      "D": "绑扎搭接连接"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "钢筋套筒挤压连接适用于竖向、横向及其他方向的较大直径变形钢筋的连接。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "44.【单选】适用于竖向较大直径变形钢筋连接的方式是（ ）。\nA.  钢筋螺纹套管连接\nB.  钢筋套筒挤压连接\nC.  电渣压力焊\nD.  绑扎搭接连接\n【答案】B\n解析:钢筋套筒挤压连接适用于竖向、横向及其他方向的较大直径变形钢筋的连接。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-045-ea7d1027",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】预应力混凝土工程中，后张法预应力传递主要依靠（ ）。",
+    "options": {
+      "A": "预应力筋",
+      "B": "预应力筋两端锚具",
+      "C": "孔道灌浆",
+      "D": "锚固夹具"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "后张法预应力的传递主要靠预应力筋两端的锚具。锚具作为预应力构件的组成部分，永 远留在构件上，不能重复使用。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "45.【单选】预应力混凝土工程中，后张法预应力传递主要依靠（ ）。\nA.  预应力筋\nB.  预应力筋两端锚具\nC.  孔道灌浆\nD.  锚固夹具\n【答案】B\n解析:后张法预应力的传递主要靠预应力筋两端的锚具。锚具作为预应力构件的组成部分，永\n远留在构件上，不能重复使用。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-046-7daebbfa",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】单层工业厂房的结构吊装中，与分件吊装法相比，综合吊装法的优点有（ ）。",
+    "options": {
+      "A": "停机点少",
+      "B": "开行路线短",
+      "C": "工作效率高",
+      "D": "构件供应与现场平面布置简单 E.起重机变幅和索具更换次数少"
+    },
+    "answer": "AB",
+    "normalizedAnswer": [
+      "A",
+      "B"
+    ],
+    "explanation": "综合吊装法的优点是：开行路线短，停机点少；吊完一个节间，其后续工种就可进入节 间内工作，使各个工种进行交叉平行流水作业，有利于缩短工期。其缺点是：采用综合吊装法，每次 吊装不同构件需要频繁变换索具，工作效率低；使构件供应紧张和平面布置复杂；构件的校正困难。 因此，目前较少采用。 第二节 道路、桥梁与涵洞工程施工技术",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "46.【多选】单层工业厂房的结构吊装中，与分件吊装法相比，综合吊装法的优点有（ ）。\nA.  停机点少\nB.  开行路线短\nC.  工作效率高\nD.  构件供应与现场平面布置简单\nE.起重机变幅和索具更换次数少\n【答案】AB\n解析:综合吊装法的优点是：开行路线短，停机点少；吊完一个节间，其后续工种就可进入节\n间内工作，使各个工种进行交叉平行流水作业，有利于缩短工期。其缺点是：采用综合吊装法，每次\n吊装不同构件需要频繁变换索具，工作效率低；使构件供应紧张和平面布置复杂；构件的校正困难。\n因此，目前较少采用。\n第二节 道路、桥梁与涵洞工程施工技术",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-047-992ed883",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】下列地质路堑开挖方法中，适用于浅且短的路堑开挖方法是（ ）。",
+    "options": {
+      "A": "单层横向全宽挖掘法",
+      "B": "多层横向全宽挖掘法",
+      "C": "通道挖掘法",
+      "D": "分层挖掘法"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "单层横向全宽挖掘法是从开挖路堑的一端或两端按断面全宽一次性挖到设计标高，逐渐 向纵深挖掘，挖出的土方一般都是向两侧运送，适用于挖掘浅且短的路堑。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "47.【单选】下列地质路堑开挖方法中，适用于浅且短的路堑开挖方法是（ ）。\nA.  单层横向全宽挖掘法\nB.  多层横向全宽挖掘法\nC.  通道挖掘法\nD.  分层挖掘法\n【答案】A\n解析:单层横向全宽挖掘法是从开挖路堑的一端或两端按断面全宽一次性挖到设计标高，逐渐\n向纵深挖掘，挖出的土方一般都是向两侧运送，适用于挖掘浅且短的路堑。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-048-98c85a7a",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】根据加固性质，下列施工方法中，适用于软土路基的有（ ）。",
+    "options": {
+      "A": "分层压实法",
+      "B": "表层处理法",
+      "C": "竖向填筑法",
+      "D": "换填法 E.重压法"
+    },
+    "answer": "BD",
+    "normalizedAnswer": [
+      "B",
+      "D"
+    ],
+    "explanation": "软土路基施工方法：表层处理法、换填法、重压法、垂直排水固结法、稳定剂处置法、 振冲置换法。分层压实法和竖向填筑法属于填石路堤施工的填筑方法。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "48.【多选】根据加固性质，下列施工方法中，适用于软土路基的有（ ）。\nA.  分层压实法\nB.  表层处理法\nC.  竖向填筑法\nD.  换填法\nE.重压法\n【答案】BDE\n解析:软土路基施工方法：表层处理法、换填法、重压法、垂直排水固结法、稳定剂处置法、\n振冲置换法。分层压实法和竖向填筑法属于填石路堤施工的填筑方法。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-049-ea59091a",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】关于桥梁墩台施工，下列说法正确的是（ ）。",
+    "options": {
+      "A": "墩台混凝土宜垂直分层浇筑",
+      "B": "实体墩台为大体积混凝土的水泥应选用硅酸盐水泥",
+      "C": "墩台混凝土分块浇筑时接缝应与墩台截面尺寸较大的一边平行",
+      "D": "混凝土分块浇筑时邻层接缝宜做成企口形"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "墩台混凝土特别是实体墩台均为大体积混凝土，水泥应优先选用矿山渣水泥，火山灰水 泥，采用普通水泥时强度等级不宜过高。墩台混凝土宜水平分层浇筑，每层高度宜为1.5～2.0m。墩 台混凝土分块浇筑时，接缝应与墩台截面尺寸较小的一边平行，邻层分块接缝应错开，接缝宜做成企 口形。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "49.【单选】关于桥梁墩台施工，下列说法正确的是（ ）。\nA.  墩台混凝土宜垂直分层浇筑\nB.  实体墩台为大体积混凝土的水泥应选用硅酸盐水泥\nC.  墩台混凝土分块浇筑时接缝应与墩台截面尺寸较大的一边平行\nD.  混凝土分块浇筑时邻层接缝宜做成企口形\n【答案】D\n解析:墩台混凝土特别是实体墩台均为大体积混凝土，水泥应优先选用矿山渣水泥，火山灰水\n泥，采用普通水泥时强度等级不宜过高。墩台混凝土宜水平分层浇筑，每层高度宜为1.5～2.0m。墩\n台混凝土分块浇筑时，接缝应与墩台截面尺寸较小的一边平行，邻层分块接缝应错开，接缝宜做成企\n口形。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-050-2a0a1b0a",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】下列桥梁上部结构的施工方法中，施工期间不影响通航或桥下交通的有（ ）。",
+    "options": {
+      "A": "悬臂施工法",
+      "B": "支架现浇法",
+      "C": "预制安装法",
+      "D": "转体施工法 E.提升与浮运施工法"
+    },
+    "answer": "AD",
+    "normalizedAnswer": [
+      "A",
+      "D"
+    ],
+    "explanation": "支架现浇法的缺点主要是工期长，施工质量不容易控制；对预应力混凝土梁由于混凝土 的收缩、徐变引起的应力损失比较大；施工中的支架、模板耗用量大，施工费用高；搭设支架影响排 洪、通航，施工期间可能受到洪水和漂流物的威胁。预制安装的方法很多，根据实际情况可采用自行 式吊车安装、跨墩龙门架安装、架桥机安装、扒杆安装、浮吊安装等，有的可能影响通航。提升与浮 运施工，这是一种采用竖向运动施工就位的方法。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "50.【多选】下列桥梁上部结构的施工方法中，施工期间不影响通航或桥下交通的有（ ）。\nA.  悬臂施工法\nB.  支架现浇法\nC.  预制安装法\nD.  转体施工法\nE.提升与浮运施工法\n【答案】AD\n解析:支架现浇法的缺点主要是工期长，施工质量不容易控制；对预应力混凝土梁由于混凝土\n的收缩、徐变引起的应力损失比较大；施工中的支架、模板耗用量大，施工费用高；搭设支架影响排\n洪、通航，施工期间可能受到洪水和漂流物的威胁。预制安装的方法很多，根据实际情况可采用自行\n式吊车安装、跨墩龙门架安装、架桥机安装、扒杆安装、浮吊安装等，有的可能影响通航。提升与浮\n运施工，这是一种采用竖向运动施工就位的方法。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-051-7059ad47",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】大型涵管排管宜选用的排管法是（ ）。",
+    "options": {
+      "A": "外壁边线排管",
+      "B": "基槽边线排管",
+      "C": "中心线法排管",
+      "D": "基槽标高排管"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "中小型涵管可采用外壁边线排管，大型涵管须用中心线法排管。 第三节 地下工程施工技术",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "51.【单选】大型涵管排管宜选用的排管法是（ ）。\nA.  外壁边线排管\nB.  基槽边线排管\nC.  中心线法排管\nD.  基槽标高排管\n【答案】C\n解析:中小型涵管可采用外壁边线排管，大型涵管须用中心线法排管。\n第三节 地下工程施工技术",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-052-58d405e7",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】地下连续墙混凝土顶面应比设计高度超浇（ ）。",
+    "options": {
+      "A": "0.4m以内",
+      "B": "0.4m以上",
+      "C": "0.5m以内",
+      "D": "0.5m以上"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "在浇筑完成后的地下连续墙墙顶存在一层浮浆层，因此混凝土顶面需要比设计高度超浇 O.5m以上。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "52.【单选】地下连续墙混凝土顶面应比设计高度超浇（ ）。\nA.  0.4m以内\nB.  0.4m以上\nC.  0.5m以内\nD.  0.5m以上\n【答案】D\n解析:在浇筑完成后的地下连续墙墙顶存在一层浮浆层，因此混凝土顶面需要比设计高度超浇\nO.5m以上。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-053-2b1c6667",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】隧道工程浅埋暗挖法施工的必要前提是（ ）。",
+    "options": {
+      "A": "对开挖面前方地层的预加固和预处理",
+      "B": "一次注浆多次开挖",
+      "C": "环状开挖预留核心土",
+      "D": "对施工过程中围岩及结构变化进行动态跟踪"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "对开挖面前方地层的预加固和预处理，视为浅埋暗挖法的必要前提，目的就在于加强开 挖面的稳定性，增加施工的安全性。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "53.【单选】隧道工程浅埋暗挖法施工的必要前提是（ ）。\nA.  对开挖面前方地层的预加固和预处理\nB.  一次注浆多次开挖\nC.  环状开挖预留核心土\nD.  对施工过程中围岩及结构变化进行动态跟踪\n【答案】A\n解析:对开挖面前方地层的预加固和预处理，视为浅埋暗挖法的必要前提，目的就在于加强开\n挖面的稳定性，增加施工的安全性。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-054-70943f9d",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】地下工程长距离顶管施工中，主要技术关键有（ ）。",
+    "options": {
+      "A": "顶进长度",
+      "B": "顶力问题",
+      "C": "方向控制",
+      "D": "顶进设备 E.制止正面坍方"
+    },
+    "answer": "BC",
+    "normalizedAnswer": [
+      "B",
+      "C"
+    ],
+    "explanation": "长距离顶管的主要技术关键有以下几个方面：（1）顶力问题。（2）方向控制。（3） 制止正面坍方。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "54.【多选】地下工程长距离顶管施工中，主要技术关键有（ ）。\nA.  顶进长度\nB.  顶力问题\nC.  方向控制\nD.  顶进设备\nE.制止正面坍方\n【答案】BCE\n解析:长距离顶管的主要技术关键有以下几个方面：（1）顶力问题。（2）方向控制。（3）\n制止正面坍方。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-055-4fbe4f63",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】沉井下沉达到设计标准封底时，需满足的观测条件是（ ）。",
+    "options": {
+      "A": "5h内下沉量小于或等于8mm",
+      "B": "6h内下沉量小于或等于8mm",
+      "C": "7h内下沉量小于或等于10mm",
+      "D": "8h内下沉量小于或等于10mm"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "沉井下沉至标高，应进行沉降观测，当8h内下沉量小于或等于10mm时，方可封底。 第五章 工程计量 第一节 工程计量的基本原理与方法",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "55.【单选】沉井下沉达到设计标准封底时，需满足的观测条件是（ ）。\nA.  5h内下沉量小于或等于8mm\nB.  6h内下沉量小于或等于8mm\nC.  7h内下沉量小于或等于10mm\nD.  8h内下沉量小于或等于10mm\n【答案】D\n解析:沉井下沉至标高，应进行沉降观测，当8h内下沉量小于或等于10mm时，方可封底。\n第五章 工程计量\n第一节 工程计量的基本原理与方法",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-056-8ca41fea",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】项目编码为010502003的混凝土结构异型柱，不需要描述的项目特征为（ ）。",
+    "options": {
+      "A": "构件编号",
+      "B": "异型柱形状",
+      "C": "混凝土强度等级",
+      "D": "混凝土类别"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "010502003异型柱，需要描述的项目特征有柱形状、混凝土类别、混凝土强度等级。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "56.【单选】项目编码为010502003的混凝土结构异型柱，不需要描述的项目特征为（ ）。\nA.  构件编号\nB.  异型柱形状\nC.  混凝土强度等级\nD.  混凝土类别\n【答案】A\n解析:010502003异型柱，需要描述的项目特征有柱形状、混凝土类别、混凝土强度等级。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-057-16a01c65",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】关于消耗量定额与工程量计算规范，下列说法正确的是（ ）。",
+    "options": {
+      "A": "消耗量定额章的划分和工程量计算规范中分部工程的划分基本一致",
+      "B": "消耗量定额的项目编码与工程量计算规范项目编码基本一致",
+      "C": "工程量计算规范中考虑了施工方法",
+      "D": "消耗量定额项目划分基于“综合实体”体现功能单元"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "消耗量章节划分与工程量计算规范附录顺序基本一致。消耗量定额中的项目编码与工程 量计算规范项目编码基本保持一致，B选项的内容在新教材中已删除。消耗量项目计量考虑了不同施 工方法和加工余量的实际数量。消耗量项目划分一般是基于施工工序进行设置的，体现施工单元，包 含的工作内容相对单一；而工程量计算规范清单项目划分一般是基于“综合实体”进行设置的，体现 功能单元。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "57.【单选】关于消耗量定额与工程量计算规范，下列说法正确的是（ ）。\nA.  消耗量定额章的划分和工程量计算规范中分部工程的划分基本一致\nB.  消耗量定额的项目编码与工程量计算规范项目编码基本一致\nC.  工程量计算规范中考虑了施工方法\nD.  消耗量定额项目划分基于“综合实体”体现功能单元\n【答案】B\n解析:消耗量章节划分与工程量计算规范附录顺序基本一致。消耗量定额中的项目编码与工程\n量计算规范项目编码基本保持一致，B选项的内容在新教材中已删除。消耗量项目计量考虑了不同施\n工方法和加工余量的实际数量。消耗量项目划分一般是基于施工工序进行设置的，体现施工单元，包\n含的工作内容相对单一；而工程量计算规范清单项目划分一般是基于“综合实体”进行设置的，体现\n功能单元。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-058-b8dc55b5",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据平法图对柱标注规定，平法标注中QZ表示（ ）。",
+    "options": {
+      "A": "墙柱",
+      "B": "芯柱",
+      "C": "剪力墙暗柱",
+      "D": "剪力墙上柱"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "QZ表示剪力墙上柱。此知识点2023教材已删除。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "58.【单选】根据平法图对柱标注规定，平法标注中QZ表示（ ）。\nA.  墙柱\nB.  芯柱\nC.  剪力墙暗柱\nD.  剪力墙上柱\n【答案】D\n解析:QZ表示剪力墙上柱。此知识点2023教材已删除。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-059-65cd34fe",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】以下关于梁钢筋平法正确的是（ ）。",
+    "options": {
+      "A": "KL（5）300×700Y300×400，Y代表水平加腋",
+      "B": "梁侧面钢筋G4 12代表两侧各有2 12的纵向构造钢筋",
+      "C": "梁上部钢筋与架立筋规格相同时可合并标注",
+      "D": "板支座原位标注包含板上部贯通筋"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "Y代表竖向加腋 。当同排纵筋中既有通长筋又有架立筋时，应用加号“+”将通长筋和架 立筋相联。板支座原位标注的内容为板支座上部非贯通纵筋和悬挑板上部受力钢筋。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "59.【单选】以下关于梁钢筋平法正确的是（ ）。\nA.  KL（5）300×700Y300×400，Y代表水平加腋\nB.  梁侧面钢筋G4 12代表两侧各有2 12的纵向构造钢筋\nC.  梁上部钢筋与架立筋规格相同时可合并标注\nD.  板支座原位标注包含板上部贯通筋\n【答案】B\n解析:Y代表竖向加腋 。当同排纵筋中既有通长筋又有架立筋时，应用加号“+”将通长筋和架\n立筋相联。板支座原位标注的内容为板支座上部非贯通纵筋和悬挑板上部受力钢筋。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-060-ec92ad78",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】某钢筋混凝土楼面板，其集中标注为“LB5 h=100 B：X 10/12@100；Y 10@110”, 下列说法正确的是（ ）。",
+    "options": {
+      "A": "LB5表示该层有5块相同板",
+      "B": "X10/12@100表示X向，上部为10钢，下部为12钢，间距100",
+      "C": "Y10@110表示下部Y向贯通纵向钢筋为10，间距110",
+      "D": "当轴网向心布置时，径向为Y向 E.当轴网正交布置时，从下向上为Y向"
+    },
+    "answer": "CD",
+    "normalizedAnswer": [
+      "C",
+      "D"
+    ],
+    "explanation": "LB5表示5号楼面板、板厚100mm，板下部配置的贯通纵筋X向为10和12隔一布",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "60.【多选】某钢筋混凝土楼面板，其集中标注为“LB5 h=100 B：X 10/12@100；Y 10@110”,\n下列说法正确的是（ ）。\nA.  LB5表示该层有5块相同板\nB.  X10/12@100表示X向，上部为10钢，下部为12钢，间距100\nC.  Y10@110表示下部Y向贯通纵向钢筋为10，间距110\nD.  当轴网向心布置时，径向为Y向\nE.当轴网正交布置时，从下向上为Y向\n【答案】CDE\n解析:LB5表示5号楼面板、板厚100mm，板下部配置的贯通纵筋X向为10和12隔一布",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-062-f8817271",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《建筑工程建筑面积计算规范》（GB/T 50353-2013），建筑面积应按自然层外 墙结构外围水平面积之和计算，应计算全面积的层高是（ ）。",
+    "options": {
+      "A": "2.20m以上",
+      "B": "2.20m及以上",
+      "C": "2.10m以上",
+      "D": "2.10m及以上"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "建筑物的建筑面积应按自然层外墙结构外围水平面积之和计算。结构层高在2.20m及以 上的，应计算全面积；结构层高在2.20m以下的，应计算1/2面积。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "61.【单选】根据《建筑工程建筑面积计算规范》（GB/T 50353-2013），建筑面积应按自然层外\n墙结构外围水平面积之和计算，应计算全面积的层高是（ ）。\nA.  2.20m以上\nB.  2.20m及以上\nC.  2.10m以上\nD.  2.10m及以上\n【答案】B\n解析:建筑物的建筑面积应按自然层外墙结构外围水平面积之和计算。结构层高在2.20m及以\n上的，应计算全面积；结构层高在2.20m以下的，应计算1/2面积。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-063-1d9a6ce8",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《建筑工程建筑面积计算规范》（GB/T 50353-2013），关于地下室与半地下室 建筑面积，下列说法正确的是（ ）。",
+    "options": {
+      "A": "结构净高在2.1m以上的计算全面积",
+      "B": "室内地坪与室外地坪之差的高度超过室内净高1/2为地下室",
+      "C": "外墙为变截面的，按照外墙上口外围计算全面积",
+      "D": "地下室外墙结构应包括保护墙"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "地下室、半地下室应按其结构外围水平面积计算。结构层高在2.20m及以上的，应计算 全面积；结构层高在2.20m以下的，应计算1/2面积。 ①地下室、半地下室按“结构外围水平面积”计算，而不按“外墙上口”取定。 ②当外墙为变截面时，按地下室、半地下室楼地面结构标高处的外围水平面积计算。 ③地下室的外墙结构不包括找平层、防水（潮）层、保护墙等。地下空间未形成建筑空间的，不 属于地下室或半地下室，不计算建筑面积。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "62.【单选】根据《建筑工程建筑面积计算规范》（GB/T 50353-2013），关于地下室与半地下室\n建筑面积，下列说法正确的是（ ）。\nA.  结构净高在2.1m以上的计算全面积\nB.  室内地坪与室外地坪之差的高度超过室内净高1/2为地下室\nC.  外墙为变截面的，按照外墙上口外围计算全面积\nD.  地下室外墙结构应包括保护墙\n【答案】B\n解析:地下室、半地下室应按其结构外围水平面积计算。结构层高在2.20m及以上的，应计算\n全面积；结构层高在2.20m以下的，应计算1/2面积。\n①地下室、半地下室按“结构外围水平面积”计算，而不按“外墙上口”取定。\n②当外墙为变截面时，按地下室、半地下室楼地面结构标高处的外围水平面积计算。\n③地下室的外墙结构不包括找平层、防水（潮）层、保护墙等。地下空间未形成建筑空间的，不\n属于地下室或半地下室，不计算建筑面积。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-064-a0874d53",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《建筑工程建筑面积计算规范》（GB/T 50353-2013），下列应计算全面积的是 （ ）。",
+    "options": {
+      "A": "有顶盖无围护设施的架空走廊",
+      "B": "有围护设施的檐廊",
+      "C": "结构净高为2.15m有顶盖的采光井",
+      "D": "依附于自然层的室外楼梯"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "建筑物的室内楼梯、电梯井、提物井、管道井、通风排气竖井、烟道，应并入建筑物的 自然层计算建筑面积。有顶盖的采光井应按一层计算面积，结构净高在2.10m及以上的，应计算全面 积，结构净高在2.10m以下的，应计算1/2面积。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "63.【单选】根据《建筑工程建筑面积计算规范》（GB/T 50353-2013），下列应计算全面积的是\n（ ）。\nA.  有顶盖无围护设施的架空走廊\nB.  有围护设施的檐廊\nC.  结构净高为2.15m有顶盖的采光井\nD.  依附于自然层的室外楼梯\n【答案】C\n解析:建筑物的室内楼梯、电梯井、提物井、管道井、通风排气竖井、烟道，应并入建筑物的\n自然层计算建筑面积。有顶盖的采光井应按一层计算面积，结构净高在2.10m及以上的，应计算全面\n积，结构净高在2.10m以下的，应计算1/2面积。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-065-0d9db4de",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】某住宅楼建筑图如图所示，根据《建筑工程建筑面积计算规范》（GB/T 50353-2013）， 阳台建筑面积计算正确的是（ ）。",
+    "options": {
+      "A": "按外围计算全面积",
+      "B": "按底板1/2",
+      "C": "按结构柱中心线为界分别计算",
+      "D": "按结构柱外边线为界分别计算"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "在主体结构内的阳台，应按其结构外围水平面积计算全面积；在主体结构外的阳台，应 按其结构底板水平投影面积计算1/2面积。该图中阳台有两部分，一部分处于主体结构内，另一部分 处于主体结构外，应分别计算建筑面积（以柱外侧为界，上面部分属于主体结构内，计算全面积，下 面部分属于主体结构外，计算1/2面积）。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "64.【单选】某住宅楼建筑图如图所示，根据《建筑工程建筑面积计算规范》（GB/T 50353-2013），\n阳台建筑面积计算正确的是（ ）。\nA.  按外围计算全面积\nB.  按底板1/2\nC.  按结构柱中心线为界分别计算\nD.  按结构柱外边线为界分别计算\n【答案】D\n解析:在主体结构内的阳台，应按其结构外围水平面积计算全面积；在主体结构外的阳台，应\n按其结构底板水平投影面积计算1/2面积。该图中阳台有两部分，一部分处于主体结构内，另一部分\n处于主体结构外，应分别计算建筑面积（以柱外侧为界，上面部分属于主体结构内，计算全面积，下\n面部分属于主体结构外，计算1/2面积）。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-066-a764ee66",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】根据《建筑工程建筑面积计算规范》（GB/T50353-2013），下列应计算建筑面积的 是（ ）。",
+    "options": {
+      "A": "主体结构外的阳台",
+      "B": "结构层高为1.8m的设备层",
+      "C": "屋顶有围护结构的水箱间",
+      "D": "挑出宽度2.0m有柱雨篷 E.建筑物以外的地下人防通道"
+    },
+    "answer": "ABCD",
+    "normalizedAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "在主体结构内的阳台，应按其结构外围水平面积计算全面积；在主体结构外的阳台，应 按其结构底板水平投影面积计算1/2面积。对于建筑物内的设备层、管道层、避难层等有结构层的楼 层，结构层高在2.20m及以上的，应计算全面积；结构层高在2.20m以下的，应计算1/2面积。设在 建筑物顶部的、有围护结构的楼梯间、水箱间、电梯机房等，结构层高在2.20m及以上的应计算全面 积；结构层高在2.20m以下的，应计算1/2面积。有柱雨篷应按其结构板水平投影面积的1/2计算建 筑面积。建筑物以外的地下人防通道，独立的烟囱、烟道、地沟、油（水）罐、气柜、水塔、贮油（水） 池、贮仓、栈桥等构筑物不计算建筑面积。 第三节 工程量计算规则与方法",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "65.【多选】根据《建筑工程建筑面积计算规范》（GB/T50353-2013），下列应计算建筑面积的\n是（ ）。\nA.  主体结构外的阳台\nB.  结构层高为1.8m的设备层\nC.  屋顶有围护结构的水箱间\nD.  挑出宽度2.0m有柱雨篷\nE.建筑物以外的地下人防通道\n【答案】ABCD\n解析:在主体结构内的阳台，应按其结构外围水平面积计算全面积；在主体结构外的阳台，应\n按其结构底板水平投影面积计算1/2面积。对于建筑物内的设备层、管道层、避难层等有结构层的楼\n层，结构层高在2.20m及以上的，应计算全面积；结构层高在2.20m以下的，应计算1/2面积。设在\n建筑物顶部的、有围护结构的楼梯间、水箱间、电梯机房等，结构层高在2.20m及以上的应计算全面\n积；结构层高在2.20m以下的，应计算1/2面积。有柱雨篷应按其结构板水平投影面积的1/2计算建\n筑面积。建筑物以外的地下人防通道，独立的烟囱、烟道、地沟、油（水）罐、气柜、水塔、贮油（水）\n池、贮仓、栈桥等构筑物不计算建筑面积。\n第三节 工程量计算规则与方法",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-067-9a2b9e79",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多 选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50854-2013） ，关于土方工程， 下列说法正确的是（ ）。",
+    "options": {
+      "A": "管沟土方按设计图示尺寸以管道中心线长度计算，不扣除各类井所占长度",
+      "B": "工作面所增加的土方工程量是否计算，应按各省建设主管部门规定实施",
+      "C": "虚方指未经碾压堆积时间≤2年的土壤",
+      "D": "桩间挖土不扣除桩的体积，但应在项目特征中加以描述 E.基础土方开挖深度应按基础垫层表面标高至设计室外地坪标高确定"
+    },
+    "answer": "ABD",
+    "normalizedAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "管沟土方以“m”计量，按设计图示以管道中心线长度计算；以“m 3 ”计量，按 设计图示 管底垫层面积乘以挖土深度计算。无管底垫层按管外径的水平投影面积乘以挖土深度计算。不扣除各 类井的长度，井的土方并入。挖沟槽、基坑、一般土方因工作面和放坡增加的工程量（管沟工作面增 加的工程量），是否并入各土方工程量中，按各省、自治区、直辖市或行业建设主管部门的规定实施。 虚方指未经碾压、堆积时间≤1年的土壤。桩间挖土不扣除桩的体积，并在项目特征中加以描述。基 础土方开挖深度应按基础垫层底表面标高至交付施工场地标高确定，无交付施工场地标高时，应按自 然地面标高确定。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "66.【多 选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50854-2013） ，关于土方工程，\n下列说法正确的是（ ）。\nA.  管沟土方按设计图示尺寸以管道中心线长度计算，不扣除各类井所占长度\nB.  工作面所增加的土方工程量是否计算，应按各省建设主管部门规定实施\nC.  虚方指未经碾压堆积时间≤2年的土壤\nD.  桩间挖土不扣除桩的体积，但应在项目特征中加以描述\nE.基础土方开挖深度应按基础垫层表面标高至设计室外地坪标高确定\n【答案】ABD\n解析:管沟土方以“m”计量，按设计图示以管道中心线长度计算；以“m\n3\n”计量，按 设计图示\n管底垫层面积乘以挖土深度计算。无管底垫层按管外径的水平投影面积乘以挖土深度计算。不扣除各\n类井的长度，井的土方并入。挖沟槽、基坑、一般土方因工作面和放坡增加的工程量（管沟工作面增\n加的工程量），是否并入各土方工程量中，按各省、自治区、直辖市或行业建设主管部门的规定实施。\n虚方指未经碾压、堆积时间≤1年的土壤。桩间挖土不扣除桩的体积，并在项目特征中加以描述。基\n础土方开挖深度应按基础垫层底表面标高至交付施工场地标高确定，无交付施工场地标高时，应按自\n然地面标高确定。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-068-e845feb0",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB50854-2013）规定，以下关于土 方回填的计算规则，正确的是（ ）。",
+    "options": {
+      "A": "室内回填工程量按各类墙体间的净面积乘以回填厚度",
+      "B": "室外回填工程量按挖方清单项目工程量减去室外地坪以下埋设的基础体积",
+      "C": "对填方密实度要求，必须在项目特征中进行详尽描述",
+      "D": "对填方材料的品种和粒径要求，必须在项目特征中进行详尽描述"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "场地回填：回填面积乘以平均回填厚度。室内回填：主墙间净面积乘以回填厚度，不扣 除间隔墙。基础回填：挖方清单项目工程量减去自然地坪以下埋设的基础体积（包括基础垫层及其他 构筑物）。回填土方项目特征描述：密实度要求、填方材料品种、填方粒径要求、填方来源及运距。 填方密实度要求，在无特殊要求的情况下，项目特征可描述为满足设计和规范的要求。填方材料品种 可以不描述，但应注明由投标人根据设计要求验方后方可填入，并符合相关工程的质量规范要求。填 方粒径要求，在无特殊要求的情况下，项目特征可以不描述。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "67.【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB50854-2013）规定，以下关于土\n方回填的计算规则，正确的是（ ）。\nA.  室内回填工程量按各类墙体间的净面积乘以回填厚度\nB.  室外回填工程量按挖方清单项目工程量减去室外地坪以下埋设的基础体积\nC.  对填方密实度要求，必须在项目特征中进行详尽描述\nD.  对填方材料的品种和粒径要求，必须在项目特征中进行详尽描述\n【答案】B\n解析:场地回填：回填面积乘以平均回填厚度。室内回填：主墙间净面积乘以回填厚度，不扣\n除间隔墙。基础回填：挖方清单项目工程量减去自然地坪以下埋设的基础体积（包括基础垫层及其他\n构筑物）。回填土方项目特征描述：密实度要求、填方材料品种、填方粒径要求、填方来源及运距。\n填方密实度要求，在无特殊要求的情况下，项目特征可描述为满足设计和规范的要求。填方材料品种\n可以不描述，但应注明由投标人根据设计要求验方后方可填入，并符合相关工程的质量规范要求。填\n方粒径要求，在无特殊要求的情况下，项目特征可以不描述。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-069-aadf07a8",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】某土方工量清单编制，按图示计算，挖土数10000m³，回填土数6000m³，已知土方 天然密实体积：夯实后体积=1:0.87，则回填方及余方弃置清单工程量分别为（ ）m³。",
+    "options": {
+      "A": "6000、4000",
+      "B": "6896.55、3103.45",
+      "C": "6000、3103.45",
+      "D": "68965.55、4000"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "余方弃置，按挖方清单项目工程量减利用回填方体积（正数）计算。回填方清单工程量 =6000m³，余方弃置清单工程量=10000-6000/0.87=3103.45m³。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "68.【单选】某土方工量清单编制，按图示计算，挖土数10000m³，回填土数6000m³，已知土方\n天然密实体积：夯实后体积=1:0.87，则回填方及余方弃置清单工程量分别为（ ）m³。\nA.  6000、4000\nB.  6896.55、3103.45\nC.  6000、3103.45\nD.  68965.55、4000\n【答案】C\n解析:余方弃置，按挖方清单项目工程量减利用回填方体积（正数）计算。回填方清单工程量\n=6000m³，余方弃置清单工程量=10000-6000/0.87=3103.45m³。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-070-40e3b7f8",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】某深层水泥搅拌桩，设计桩长18m，设计桩底标高为-19m，自然地坪标高为-0.3m， 设计室外地坪标高为-0.1m，根据《房屋建筑与装饰工程工程量计算规范》（GB 50854-2013），则该 桩的空桩长度为（ ）m。",
+    "options": {
+      "A": "0.7",
+      "B": "0.9",
+      "C": "1.1",
+      "D": "1.3"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "空桩长度=孔深一桩长，孔深为自然地面至设计桩底的深度。空桩长度=19- 0.3-18=0.7。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "69.【单选】某深层水泥搅拌桩，设计桩长18m，设计桩底标高为-19m，自然地坪标高为-0.3m，\n设计室外地坪标高为-0.1m，根据《房屋建筑与装饰工程工程量计算规范》（GB 50854-2013），则该\n桩的空桩长度为（ ）m。\nA.  0.7\nB.  0.9\nC.  1.1\nD.  1.3\n【答案】A\n解析:空桩长度=孔深一桩长，孔深为自然地面至设计桩底的深度。空桩长度=19- 0.3-18=0.7。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-071-f128fdad",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】根据《房屋建筑与装饰工程工程量计算规范》（GB50854-2013），地基处理与边坡 支护工程中，可用立方米作为计量单位的有（ ）。",
+    "options": {
+      "A": "砂石桩",
+      "B": "石灰桩",
+      "C": "振冲桩（填料）",
+      "D": "深层搅拌桩 E.注浆地基"
+    },
+    "answer": "AC",
+    "normalizedAnswer": [
+      "A",
+      "C"
+    ],
+    "explanation": "石灰桩按设计图示尺寸以桩长（包括桩尖）“m”计算。深层搅拌桩按设计图示尺寸以 桩长“m”计算。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "70.【多选】根据《房屋建筑与装饰工程工程量计算规范》（GB50854-2013），地基处理与边坡\n支护工程中，可用立方米作为计量单位的有（ ）。\nA.  砂石桩\nB.  石灰桩\nC.  振冲桩（填料）\nD.  深层搅拌桩\nE.注浆地基\n【答案】ACE\n解析:石灰桩按设计图示尺寸以桩长（包括桩尖）“m”计算。深层搅拌桩按设计图示尺寸以\n桩长“m”计算。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-072-4ccbb90e",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB50584-2013），0.5厚及1.5厚标 准砖墙厚度分别为（ ）。",
+    "options": {
+      "A": "115、365",
+      "B": "120、370",
+      "C": "120、365",
+      "D": "115、370"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "标准砖墙厚度表如下所示 砖数/厚度 1/4 1/2 3/4 1 1½ 2 2½ 3 计算厚度/mm 53 115 180 240 365 490 615 740",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "71.【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB50584-2013），0.5厚及1.5厚标\n准砖墙厚度分别为（ ）。\nA.  115、365\nB.  120、370\nC.  120、365\nD.  115、370\n【答案】A\n解析:标准砖墙厚度表如下所示\n砖数/厚度 1/4 1/2 3/4 1 1½ 2 2½ 3\n计算厚度/mm 53 115 180 240 365 490 615 740",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-073-e80550d6",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50854-2013），关于混凝土墙的 工程量下列说法正确的是（ ）。",
+    "options": {
+      "A": "现浇混凝土墙包括直行墙、异形墙、短肢剪力墙和挡土墙",
+      "B": "墙垛突出墙面部分并入墙体体积内",
+      "C": "短肢剪力墙厚度小于等于250mm",
+      "D": "短肢剪力墙截面高度与厚度之比最小值小于4"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "现浇混凝土墙包括直形墙、弧形墙、短肢剪力墙、挡土墙。墙垛及突出墙面部分并入墙 体体积内计算。短肢剪力墙是指截面厚度不大于300mm、各肢截面高度与厚度之比的最大值大于4但 不大于8的剪力墙。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "72.【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50854-2013），关于混凝土墙的\n工程量下列说法正确的是（ ）。\nA.  现浇混凝土墙包括直行墙、异形墙、短肢剪力墙和挡土墙\nB.  墙垛突出墙面部分并入墙体体积内\nC.  短肢剪力墙厚度小于等于250mm\nD.  短肢剪力墙截面高度与厚度之比最小值小于4\n【答案】B\n解析:现浇混凝土墙包括直形墙、弧形墙、短肢剪力墙、挡土墙。墙垛及突出墙面部分并入墙\n体体积内计算。短肢剪力墙是指截面厚度不大于300mm、各肢截面高度与厚度之比的最大值大于4但\n不大于8的剪力墙。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-074-db27ea28",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50854-2013），关于钢筋工程量 下列说法正确的是（ ）。",
+    "options": {
+      "A": "钢筋网片按钢筋规格不同以m 2 计算",
+      "B": "混凝土保护层厚度是结构构件中最外层钢筋外边缘至混凝土外表面的距离",
+      "C": "碳素钢丝用墩头锚具时，钢丝长度按孔道长度增0.5m计算",
+      "D": "声测管按设计图示尺寸以m计算"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "现浇构件钢筋、预制构件钢筋、钢筋网片、钢筋笼，按设计图示钢筋（网）长度（面积） 乘单位理论质量“t”计算。碳素钢丝采用墩头锚具时，钢丝束长度按孔道长度增加0.35m计算。声 测管，按设计图示尺寸以质量“t”计算。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "73.【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50854-2013），关于钢筋工程量\n下列说法正确的是（ ）。\nA.  钢筋网片按钢筋规格不同以m\n2\n计算\nB.  混凝土保护层厚度是结构构件中最外层钢筋外边缘至混凝土外表面的距离\nC.  碳素钢丝用墩头锚具时，钢丝长度按孔道长度增0.5m计算\nD.  声测管按设计图示尺寸以m计算\n【答案】B\n解析:现浇构件钢筋、预制构件钢筋、钢筋网片、钢筋笼，按设计图示钢筋（网）长度（面积）\n乘单位理论质量“t”计算。碳素钢丝采用墩头锚具时，钢丝束长度按孔道长度增加0.35m计算。声\n测管，按设计图示尺寸以质量“t”计算。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-075-b9c950c3",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程消耗量定额》（TY 01-31-2015）规定，钢筋接头数量设 计图纸及规范未明确的，对Φ8的长钢筋计算一个接头，对应的钢筋长度为（ ）。",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "12",
+      "D": "不确定"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "钢筋连接的数量按设计图示及规范要求计算，设计图纸及规范要求未标明的，按以下规 定计算：Φ10以内的长钢筋按每12m计算一个钢筋接头。Φ10以上的长钢筋按每9m计算一个接头。 此知识点2023教材已删除。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "74.【单选】根据《房屋建筑与装饰工程消耗量定额》（TY 01-31-2015）规定，钢筋接头数量设\n计图纸及规范未明确的，对Φ8的长钢筋计算一个接头，对应的钢筋长度为（ ）。\nA.  8\nB.  9\nC.  12\nD.  不确定\n【答案】C\n解析:钢筋连接的数量按设计图示及规范要求计算，设计图纸及规范要求未标明的，按以下规\n定计算：Φ10以内的长钢筋按每12m计算一个钢筋接头。Φ10以上的长钢筋按每9m计算一个接头。\n此知识点2023教材已删除。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-076-b0293f33",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB50584-2013），钢网架项目特征 必须进行描述的是（ ）。",
+    "options": {
+      "A": "安装高度",
+      "B": "单件质量",
+      "C": "螺栓种类",
+      "D": "油漆品种"
+    },
+    "answer": "A",
+    "normalizedAnswer": [
+      "A"
+    ],
+    "explanation": "钢网架项目特征描述：钢材品种、规格；网架节点形式、连接方式；网架跨度、安装高 度；探伤要求；防火要求等。其中防火要求指耐火极限。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "75.【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB50584-2013），钢网架项目特征\n必须进行描述的是（ ）。\nA.  安装高度\nB.  单件质量\nC.  螺栓种类\nD.  油漆品种\n【答案】A\n解析:钢网架项目特征描述：钢材品种、规格；网架节点形式、连接方式；网架跨度、安装高\n度；探伤要求；防火要求等。其中防火要求指耐火极限。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-077-3d9df912",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB50584-2013），屋面卷材工程量 计算，下列说法正确的是（ ）。",
+    "options": {
+      "A": "应扣除屋面小气窗所占面积",
+      "B": "不扣除斜沟所占面积",
+      "C": "屋面卷材空铺层所占面积另行计算",
+      "D": "屋面女儿墙的弯起部分不计算"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "屋面卷材防水、屋面涂膜防水①按设计图示尺寸以面积“m 2 ”计算。②斜屋顶（不包括 平屋顶找坡）按斜面积计算，平屋顶按水平投影面积计算，不扣除房上烟囱、风帽底座、风道、屋面 小气窗和斜沟所占面积。③屋面的女儿墙、伸缩缝和天窗等处的弯起部分，并入屋面工程量内。④屋 面防水搭接及附加层用量不另行计算，在综合单价中考虑。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "76.【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB50584-2013），屋面卷材工程量\n计算，下列说法正确的是（ ）。\nA.  应扣除屋面小气窗所占面积\nB.  不扣除斜沟所占面积\nC.  屋面卷材空铺层所占面积另行计算\nD.  屋面女儿墙的弯起部分不计算\n【答案】B\n解析:屋面卷材防水、屋面涂膜防水①按设计图示尺寸以面积“m\n2\n”计算。②斜屋顶（不包括\n平屋顶找坡）按斜面积计算，平屋顶按水平投影面积计算，不扣除房上烟囱、风帽底座、风道、屋面\n小气窗和斜沟所占面积。③屋面的女儿墙、伸缩缝和天窗等处的弯起部分，并入屋面工程量内。④屋\n面防水搭接及附加层用量不另行计算，在综合单价中考虑。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-078-9b5b661b",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50584-2013），关于天棚抹灰工 程量的计算说法正确的是（ ）。",
+    "options": {
+      "A": "天棚抹灰按设计图示水平展开面积计算",
+      "B": "锯齿形楼梯底板抹灰按斜面积计算",
+      "C": "天棚抹灰不扣除检查口面积",
+      "D": "采光天棚骨架并入不单独列项"
+    },
+    "answer": "C",
+    "normalizedAnswer": [
+      "C"
+    ],
+    "explanation": "天棚抹灰按设计图示尺寸以水平投影面积“m 2 ”计算。不扣除间壁墙、垛、柱、附墙烟 囱、检查口和管道所占的面积，带梁天棚的梁两侧抹灰面积并入天棚面积内，板式楼梯底面抹灰按斜 面积计算，锯齿形楼梯底板抹灰按展开面积计算。采光天棚骨架应单独按“金属结构”中相关项目编 码列项。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "77.【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50584-2013），关于天棚抹灰工\n程量的计算说法正确的是（ ）。\nA.  天棚抹灰按设计图示水平展开面积计算\nB.  锯齿形楼梯底板抹灰按斜面积计算\nC.  天棚抹灰不扣除检查口面积\nD.  采光天棚骨架并入不单独列项\n【答案】C\n解析:天棚抹灰按设计图示尺寸以水平投影面积“m\n2\n”计算。不扣除间壁墙、垛、柱、附墙烟\n囱、检查口和管道所占的面积，带梁天棚的梁两侧抹灰面积并入天棚面积内，板式楼梯底面抹灰按斜\n面积计算，锯齿形楼梯底板抹灰按展开面积计算。采光天棚骨架应单独按“金属结构”中相关项目编\n码列项。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-079-c268d900",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50584-2013），关于油漆工程， 下列说法正确的是（ ）。",
+    "options": {
+      "A": "木门油漆工作内容中未包含“刮腻子”应单独计算",
+      "B": "木门油漆以“樘”为单位计量时，项目特征应描述相应的洞口尺寸",
+      "C": "壁柜油漆按设计图示尺寸以油漆部分的投影面积计算",
+      "D": "金属面油漆应包含在相应钢构件制作的清单内，不单独列项"
+    },
+    "answer": "B",
+    "normalizedAnswer": [
+      "B"
+    ],
+    "explanation": "木门油漆、金属门油漆工作内容中包括“刮腻子”，应在综合单价中考虑，不另计算工 程量。衣柜及壁柜油漆、梁柱饰面油漆、零星木装修油漆，按设计图示尺寸以油漆部分展开面积“m 2 ” 计算。金属面油漆以“t”计量，按设计图示尺寸以质量计算；以“m 2 ”计量，按设计展开面积计算。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "78.【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50584-2013），关于油漆工程，\n下列说法正确的是（ ）。\nA.  木门油漆工作内容中未包含“刮腻子”应单独计算\nB.  木门油漆以“樘”为单位计量时，项目特征应描述相应的洞口尺寸\nC.  壁柜油漆按设计图示尺寸以油漆部分的投影面积计算\nD.  金属面油漆应包含在相应钢构件制作的清单内，不单独列项\n【答案】B\n解析:木门油漆、金属门油漆工作内容中包括“刮腻子”，应在综合单价中考虑，不另计算工\n程量。衣柜及壁柜油漆、梁柱饰面油漆、零星木装修油漆，按设计图示尺寸以油漆部分展开面积“m\n2\n”\n计算。金属面油漆以“t”计量，按设计图示尺寸以质量计算；以“m\n2\n”计量，按设计展开面积计算。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-080-f30a5f7b",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "single_choice",
+    "stem": "【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50584-2013），下列措施项目， 以“项”为单位计量的是（ ）。",
+    "options": {
+      "A": "超高施工增加",
+      "B": "大型机械设备进出场",
+      "C": "施工降水",
+      "D": "非夜间施工照明"
+    },
+    "answer": "D",
+    "normalizedAnswer": [
+      "D"
+    ],
+    "explanation": "超高施工增加、大型机械设备进出场、施工降水都是可计量的措施项目。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "79.【单选】根据《房屋建筑与装饰工程工程量计算规范》（GB 50584-2013），下列措施项目，\n以“项”为单位计量的是（ ）。\nA.  超高施工增加\nB.  大型机械设备进出场\nC.  施工降水\nD.  非夜间施工照明\n【答案】D\n解析:超高施工增加、大型机械设备进出场、施工降水都是可计量的措施项目。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  },
+  {
+    "id": "measurement-2022-081-0382f335",
+    "year": 2022,
+    "subject": "measurement",
+    "type": "multiple_choice",
+    "stem": "【多选】根据《房屋建筑与装饰工程工程量计算规范》（GB50584-2013），同一建筑物有不 同檐高时，下列项目应按不同檐高分别列项的有（ ）。",
+    "options": {
+      "A": "垂直运输",
+      "B": "超高施工增加",
+      "C": "二次搬运",
+      "D": "大型机械安拆 E.脚手架工程"
+    },
+    "answer": "AB",
+    "normalizedAnswer": [
+      "A",
+      "B"
+    ],
+    "explanation": "脚手架，同一建筑物有不同的檐高时，按建筑物竖向切面分别按不同檐高编列清单项目。 超高施工增加，同一建筑物有不同檐高时，可按不同高度的建筑面积分别计算建筑面积，以不同檐高 分别编码列项。垂直运输，同一建筑物有不同檐高时，按建筑物的不同檐高做纵向分割，分别计算建 筑面积，以不同檐高分别编码列项。",
+    "frequencyScore": 30,
+    "errorWeight": 1,
+    "confidence": 1,
+    "rawText": "80.【多选】根据《房屋建筑与装饰工程工程量计算规范》（GB50584-2013），同一建筑物有不\n同檐高时，下列项目应按不同檐高分别列项的有（ ）。\nA.  垂直运输\nB.  超高施工增加\nC.  二次搬运\nD.  大型机械安拆\nE.脚手架工程\n【答案】ABE\n解析:脚手架，同一建筑物有不同的檐高时，按建筑物竖向切面分别按不同檐高编列清单项目。\n超高施工增加，同一建筑物有不同檐高时，可按不同高度的建筑面积分别计算建筑面积，以不同檐高\n分别编码列项。垂直运输，同一建筑物有不同檐高时，按建筑物的不同檐高做纵向分割，分别计算建\n筑面积，以不同檐高分别编码列项。",
+    "sourceFile": "07.2022一造土建真题透析.pdf",
+    "sourceFiles": [
+      "07.2022一造土建真题透析.pdf"
+    ],
+    "sourceHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+    "importBatchId": "import_20260702_174727",
+    "examAppearCount": 1
+  }
+]

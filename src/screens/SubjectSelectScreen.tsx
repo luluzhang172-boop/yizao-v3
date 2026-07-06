@@ -1,5 +1,6 @@
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { ScreenName } from "../../App";
+import { canUseInLevel } from "../core/questionBank";
 import { useLearningStore } from "../store/learningStore";
 import { theme } from "../theme/theme";
 import { Subject, subjectLabels, subjects } from "../types/question";
@@ -15,7 +16,9 @@ export function SubjectSelectScreen({
   const startSession = useLearningStore((state) => state.startSession);
 
   const getSubjectStats = (subject: Subject) => {
-    const subjectQuestions = questions.filter((question) => question.subject === subject);
+    const subjectQuestions = questions.filter(
+      (question) => question.subject === subject && canUseInLevel(question)
+    );
     const subjectIds = new Set(subjectQuestions.map((question) => question.id));
     const logs = progress.answerLogs.filter((log) => log.subject === subject);
     const answered = progress.answeredQuestionIds.filter((id) => subjectIds.has(id)).length;
@@ -38,7 +41,7 @@ export function SubjectSelectScreen({
           <Text style={styles.note}>选择一个科目，系统会固定生成 30 题 session，连续做题不重复。</Text>
         </Panel>
         {subjects
-          .filter((subject) => subject !== "unknown")
+          .filter((subject) => subject !== "unknown" && subject !== "case")
           .map((subject) => {
             const item = getSubjectStats(subject);
             return (

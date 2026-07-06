@@ -1,11 +1,13 @@
 import { ErrorRecord, LearningMode } from "../types/progress";
 import { Question, Subject } from "../types/question";
+import { canUseInLevel } from "./questionBank";
 
 type CreateSessionInput = {
   questions: Question[];
   mode: LearningMode;
   subject?: Subject;
   levelId?: string;
+  dailyStepId?: string;
   questionIds?: string[];
   limit?: number;
   answeredQuestionIds?: string[];
@@ -35,6 +37,7 @@ export function createSession({
   mode,
   subject,
   levelId,
+  dailyStepId,
   questionIds: fixedQuestionIds,
   limit = defaultLimit,
   answeredQuestionIds = [],
@@ -43,19 +46,23 @@ export function createSession({
   srsDueQuestionIds = []
 }: CreateSessionInput) {
   if (fixedQuestionIds?.length) {
+    const objectiveIds = new Set(questions.filter(canUseInLevel).map((question) => question.id));
     return {
       id: `${mode}-${levelId ?? subject ?? "fixed"}-${Date.now()}`,
       mode,
       subject,
       levelId,
-      questionIds: Array.from(new Set(fixedQuestionIds)).slice(0, limit),
+      dailyStepId,
+      questionIds: Array.from(new Set(fixedQuestionIds))
+        .filter((id) => objectiveIds.has(id))
+        .slice(0, limit),
       currentIndex: 0,
       startedAt: Date.now()
     };
   }
 
   const answeredIds = new Set(answeredQuestionIds);
-  let pool = uniqueById(questions);
+  let pool = uniqueById(questions).filter(canUseInLevel);
 
   if (mode === "subject" && subject) {
     pool = pool.filter((question) => question.subject === subject);
@@ -69,7 +76,7 @@ export function createSession({
     pool = preferUnanswered(pool, answeredIds);
   }
 
-  if (mode === "wrong") {
+  if (mode === "wrong" || mode === "weak_drill") {
     const wrongIds = new Set([...wrongQuestionIds, ...srsDueQuestionIds]);
     pool = pool
       .filter((question) => wrongIds.has(question.id))
@@ -102,9 +109,10 @@ export function createSession({
   return {
     id: `${mode}-${subject ?? "all"}-${Date.now()}`,
     mode,
-    subject,
-    levelId,
-    questionIds,
+      subject,
+      levelId,
+      dailyStepId,
+      questionIds,
     currentIndex: 0,
     startedAt: Date.now()
   };

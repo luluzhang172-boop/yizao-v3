@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "files": {
+    "01.2025一造管理真题透析.pdf": {
+      "fileName": "01.2025一造管理真题透析.pdf",
+      "fileHash": "ca94bfe6d491f185514031790761f9d147e1a4d4a7499994389343d153c53142",
+      "size": 1884548,
+      "lastModified": 1782897542930.7827,
+      "processedAt": 1782985648430,
+      "questionCount": 80,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/01.2025一造管理真题透析-ca94bfe6d491.json"
+    },
+    "01.2025一造计价-真题透析.pdf": {
+      "fileName": "01.2025一造计价-真题透析.pdf",
+      "fileHash": "e9bea327f7b89daa82725f57c212afe7ea767cac61902bb7290f723e3a900870",
+      "size": 1782814,
+      "lastModified": 1782897578148.8235,
+      "processedAt": 1782985649337,
+      "questionCount": 160,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/01.2025一造计价-真题透析-e9bea327f7b8.json"
+    },
+    "01.2025一造土建真题透析.pdf": {
+      "fileName": "01.2025一造土建真题透析.pdf",
+      "fileHash": "a2400bb8051d0a6921710fa86f7d4401c92de7f25cb55f3f802c362eedffa095",
+      "size": 1184526,
+      "lastModified": 1782897611272.6824,
+      "processedAt": 1782985649879,
+      "questionCount": 1,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/01.2025一造土建真题透析-a2400bb8051d.json"
+    },
+    "01.一造案例真题透析（2021年真题）.pdf": {
+      "fileName": "01.一造案例真题透析（2021年真题）.pdf",
+      "fileHash": "924d90db0bf75d6e4d51295968fbef653cb58c51b87a434c2e70a2dc66161746",
+      "size": 6525768,
+      "lastModified": 1782897654952.1162,
+      "processedAt": 1782985650941,
+      "questionCount": 6,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/01.一造案例真题透析_2021年真题_-924d90db0bf7.json"
+    },
+    "03.2024一造土建真题透析.pdf": {
+      "fileName": "03.2024一造土建真题透析.pdf",
+      "fileHash": "bcf079949b374c7decd6ed8aa09184c5250b7fcf2e5a6f194a273c48ea30cb99",
+      "size": 1455223,
+      "lastModified": 1782897611720.2356,
+      "processedAt": 1782985651506,
+      "questionCount": 0,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/03.2024一造土建真题透析-bcf079949b37.json"
+    },
+    "04.2024一级造价工程师《建设工程计价》真题透析.pdf": {
+      "fileName": "04.2024一级造价工程师《建设工程计价》真题透析.pdf",
+      "fileHash": "bd1ba3b051cca869d002ad7221d7e5ed9a168fca88ee2da60d32b00c3712bbbf",
+      "size": 1131846,
+      "lastModified": 1782897578109.863,
+      "processedAt": 1782985651939,
+      "questionCount": 80,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/04.2024一级造价工程师_建设工程计价_真题透析-bd1ba3b051cc.json"
+    },
+    "04.2024一造管理真题透析.pdf": {
+      "fileName": "04.2024一造管理真题透析.pdf",
+      "fileHash": "a41494b6be63f21191e328094585f250e87becf17b73fdd28e063665e5be1618",
+      "size": 924718,
+      "lastModified": 1782897542684.8196,
+      "processedAt": 1782985652310,
+      "questionCount": 60,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/04.2024一造管理真题透析-a41494b6be63.json"
+    },
+    "04.一造案例真题透析（2022年真题）.pdf": {
+      "fileName": "04.一造案例真题透析（2022年真题）.pdf",
+      "fileHash": "a01e85c6250fc852a0a8d23c1197d2837d51d6d4f6ce4ee9815276883b3d396a",
+      "size": 6133472,
+      "lastModified": 1782897654708.034,
+      "processedAt": 1782985653074,
+      "questionCount": 6,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/04.一造案例真题透析_2022年真题_-a01e85c6250f.json"
+    },
+    "05.2023一造土建真题透析.pdf": {
+      "fileName": "05.2023一造土建真题透析.pdf",
+      "fileHash": "2897ac3c04ee3fbe2aa6bab7c767f70bbccb5bdaf17b1dc8d26e8156669785f1",
+      "size": 766277,
+      "lastModified": 1782897611087.8052,
+      "processedAt": 1782985653402,
+      "questionCount": 2,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/05.2023一造土建真题透析-2897ac3c04ee.json"
+    },
+    "06.2023一级造价工程师《建设工程计价》真题透析.pdf": {
+      "fileName": "06.2023一级造价工程师《建设工程计价》真题透析.pdf",
+      "fileHash": "43ea99a42a789f702f2c6962fdef20022c580ef50f2517b0f426633ceca2ded8",
+      "size": 1241688,
+      "lastModified": 1782897578242.0166,
+      "processedAt": 1782985653919,
+      "questionCount": 80,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/06.2023一级造价工程师_建设工程计价_真题透析-43ea99a42a78.json"
+    },
+    "06.2023一造管理真题透析.pdf": {
+      "fileName": "06.2023一造管理真题透析.pdf",
+      "fileHash": "e68fdc22cf7eab10b0be4901976eeaf4acf4b86887c403fc65e1559890b01355",
+      "size": 2756309,
+      "lastModified": 1782897542666.3418,
+      "processedAt": 1782985654907,
+      "questionCount": 80,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/06.2023一造管理真题透析-e68fdc22cf7e.json"
+    },
+    "07.2022一造土建真题透析.pdf": {
+      "fileName": "07.2022一造土建真题透析.pdf",
+      "fileHash": "62462610c4d68fc9255841394a71472ba0c556dcacdc2a2dd3da7ede25c6f773",
+      "size": 764490,
+      "lastModified": 1782897611339.3413,
+      "processedAt": 1782985655357,
+      "questionCount": 80,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/07.2022一造土建真题透析-62462610c4d6.json"
+    },
+    "07.一造案例真题透析（2023年真题）.pdf": {
+      "fileName": "07.一造案例真题透析（2023年真题）.pdf",
+      "fileHash": "b9ed1917a46a60378cfa94fd88e2c0cafbd2dae7b06c14c85cc62fbaa0fa0f47",
+      "size": 4406032,
+      "lastModified": 1782897654781.247,
+      "processedAt": 1782985655905,
+      "questionCount": 5,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/07.一造案例真题透析_2023年真题_-b9ed1917a46a.json"
+    },
+    "08.2022一级造价工程师《建设工程计价》真题透析.pdf": {
+      "fileName": "08.2022一级造价工程师《建设工程计价》真题透析.pdf",
+      "fileHash": "94ac26c3bb7b84701c9c45e1ed49a52f60f2a6a024a750cfc220abeb1a004a58",
+      "size": 1354705,
+      "lastModified": 1782897577736.8467,
+      "processedAt": 1782985656286,
+      "questionCount": 80,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/08.2022一级造价工程师_建设工程计价_真题透析-94ac26c3bb7b.json"
+    },
+    "08.2022一造管理真题透析.pdf": {
+      "fileName": "08.2022一造管理真题透析.pdf",
+      "fileHash": "2f8a0665083ba3679a44a52a7741830ec540de2be400e061734e40777f40c7e1",
+      "size": 2032372,
+      "lastModified": 1782897542801.8376,
+      "processedAt": 1782985657097,
+      "questionCount": 78,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/08.2022一造管理真题透析-2f8a0665083b.json"
+    },
+    "09.2021一造土建真题透析.pdf": {
+      "fileName": "09.2021一造土建真题透析.pdf",
+      "fileHash": "b804efe9a56a78d4e2da0b60ba1eddda38de7b55a4314414d937de2a103ba72a",
+      "size": 789965,
+      "lastModified": 1782897611586.7065,
+      "processedAt": 1782985657381,
+      "questionCount": 0,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/09.2021一造土建真题透析-b804efe9a56a.json"
+    },
+    "10.2021一级造价工程师《建设工程计价》真题透析.pdf": {
+      "fileName": "10.2021一级造价工程师《建设工程计价》真题透析.pdf",
+      "fileHash": "a0689691e364b18bc4753b1ab034e9552b36a53a0f668a730b3919da821df833",
+      "size": 1176899,
+      "lastModified": 1782897578399.7278,
+      "processedAt": 1782985657826,
+      "questionCount": 80,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/10.2021一级造价工程师_建设工程计价_真题透析-a0689691e364.json"
+    },
+    "10.2021一造管理真题透析.pdf": {
+      "fileName": "10.2021一造管理真题透析.pdf",
+      "fileHash": "612e28fc6a61f67b141ce45ad97360ebf0c16fabb36dc2528d33b0e2abd776dc",
+      "size": 2001415,
+      "lastModified": 1782897542542.1191,
+      "processedAt": 1782985658772,
+      "questionCount": 79,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/10.2021一造管理真题透析-612e28fc6a61.json"
+    },
+    "10.一造案例真题透析（2024年真题）.pdf": {
+      "fileName": "10.一造案例真题透析（2024年真题）.pdf",
+      "fileHash": "f883dd87879413b3f898248fa33376b5a45e91eb0574273fd50deee848af14e8",
+      "size": 2708008,
+      "lastModified": 1782897654781.247,
+      "processedAt": 1782985659097,
+      "questionCount": 4,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/10.一造案例真题透析_2024年真题_-f883dd878794.json"
+    },
+    "14.2025年一造考试真题.pdf": {
+      "fileName": "14.2025年一造考试真题.pdf",
+      "fileHash": "a0ef0bec747f88e973defe86a06b2b535a9339f98274908df6ba0fd4a033cab4",
+      "size": 9482342,
+      "lastModified": 1782897655344.2312,
+      "processedAt": 1782985659633,
+      "questionCount": 4,
+      "status": "processed",
+      "outputCacheFile": "data-pipeline/cache/14.2025年一造考试真题-a0ef0bec747f.json"
+    }
+  }
+}

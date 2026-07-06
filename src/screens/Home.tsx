@@ -1,7 +1,9 @@
-import { isToday } from "date-fns";
+import { format, isToday } from "date-fns";
+import { useEffect } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { ScreenName } from "../../App";
-import { buildLevelNodes, getNextLevel } from "../core/levelEngine";
+import { getCaseStats } from "../core/caseEngine";
+import { canUseInLevel } from "../core/questionBank";
 import { getLevelFromXp, useLearningStore } from "../store/learningStore";
 import { theme } from "../theme/theme";
 import { subjectLabels, subjects } from "../types/question";
@@ -11,66 +13,58 @@ export function Home({ navigate }: { navigate: (screen: ScreenName) => void }) {
   const questions = useLearningStore((state) => state.questions);
   const stats = useLearningStore((state) => state.questionStats);
   const progress = useLearningStore((state) => state.progress);
-  const startSession = useLearningStore((state) => state.startSession);
-  const dueSRSIds = useLearningStore((state) => state.getDueSRSQuestionIds());
-  const nodes = buildLevelNodes(questions, progress);
-  const nextLevel = getNextLevel(nodes);
+  const ensureDailyPlan = useLearningStore((state) => state.ensureDailyPlan);
+  const todayKey = format(new Date(), "yyyy-MM-dd");
+  const plan = progress.dailyPlans[todayKey];
+  const caseStats = getCaseStats(questions, progress);
+
+  useEffect(() => {
+    ensureDailyPlan();
+  }, [ensureDailyPlan]);
 
   const todayLogs = progress.answerLogs.filter((log) => isToday(log.timestamp));
-  const accuracy = progress.answerLogs.length
+  const allAccuracy = progress.answerLogs.length
     ? Math.round(
         (progress.answerLogs.filter((log) => log.correct).length /
           progress.answerLogs.length) *
           100
       )
     : 0;
-  const todayProgress = Math.min(100, Math.round((todayLogs.length / 20) * 100));
-
-  const startDaily = () => {
-    startSession({ mode: "daily", limit: 30 });
-    navigate("quiz");
-  };
-
-  const startNextLevel = () => {
-    if (!nextLevel) return;
-    startSession({
-      mode: "level",
-      subject: nextLevel.subject,
-      levelId: nextLevel.id,
-      questionIds: nextLevel.questionIds,
-      limit: 10
-    });
-    navigate("quiz");
-  };
+  const progressValue = plan?.totalQuestions
+    ? Math.round((plan.completedQuestions / plan.totalQuestions) * 100)
+    : 0;
+  const reviewCount =
+    plan?.steps.find((step) => step.type === "review")?.questionIds.length ?? 0;
+  const newCount =
+    plan?.steps.find((step) => step.type === "new_level")?.questionIds.length ?? 0;
+  const weakCount =
+    plan?.steps.find((step) => step.type === "weak_drill")?.questionIds.length ?? 0;
 
   return (
     <Page>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.hero}>
-          <Text style={styles.heroTitle}>一造通关指南 V3.1</Text>
-          <Text style={styles.heroSub}>4个月通关计划 · 今日学习建议</Text>
-          <Text style={styles.heroHint}>
-            先完成 20 道新题、10 道复习，再推进 1 个闯关节点。
-          </Text>
+          <Text style={styles.heroTitle}>一造通关指南 V3.2</Text>
+          <Text style={styles.heroSub}>每日学习路径系统</Text>
+          <Text style={styles.heroHint}>今天只需要完成这 3 步：复习、新关卡、薄弱强化。</Text>
+          <Pressable style={styles.primaryButton} onPress={() => navigate("daily")}>
+            <Text style={styles.primaryText}>开始今日学习</Text>
+          </Pressable>
         </View>
 
         <Panel>
-          <View style={styles.rowBetween}>
-            <View>
-              <SectionTitle>今日任务</SectionTitle>
-              <Text style={styles.body}>今日新题：20 · 今日复习：10 · 今日闯关：1关</Text>
-              <Text style={styles.body}>
-                推荐关卡：{nextLevel ? nextLevel.title : "已全部完成"}
-              </Text>
-            </View>
+          <SectionTitle>今日目标</SectionTitle>
+          <View style={styles.planRow}>
+            <Text style={styles.planItem}>复习 {reviewCount} 题</Text>
+            <Text style={styles.planItem}>新关卡 {newCount ? "1 个" : "0 个"}</Text>
+            <Text style={styles.planItem}>强化 {weakCount} 题</Text>
           </View>
           <View style={styles.progressBlock}>
-            <Text style={styles.progressText}>今日完成率 {todayProgress}%</Text>
-            <ProgressBar value={todayProgress} />
+            <Text style={styles.body}>
+              今日进度：{plan?.completedQuestions ?? 0} / {plan?.totalQuestions ?? 0}
+            </Text>
+            <ProgressBar value={progressValue} />
           </View>
-          <Pressable style={styles.primaryButton} onPress={startDaily}>
-            <Text style={styles.primaryText}>开始今日学习</Text>
-          </Pressable>
         </Panel>
 
         <View style={styles.metrics}>
@@ -80,28 +74,43 @@ export function Home({ navigate }: { navigate: (screen: ScreenName) => void }) {
         </View>
 
         <Panel>
+          <SectionTitle>学习状态</SectionTitle>
+          <Text style={styles.body}>题库总数：{stats.total}</Text>
+          <Text style={styles.body}>已完成题数：{progress.answeredQuestionIds.length}</Text>
+          <Text style={styles.body}>今日已做：{todayLogs.length}</Text>
+          <Text style={styles.body}>正确率：{allAccuracy}%</Text>
+          <Text style={styles.body}>错题数：{progress.wrongQuestionIds.length}</Text>
+        </Panel>
+
+        <Panel>
           <SectionTitle>四科进度</SectionTitle>
           <View style={styles.subjectGrid}>
             {subjects
               .filter((subject) => subject !== "unknown")
               .map((subject) => {
-                const subjectQuestions = questions.filter((q) => q.subject === subject);
-                const subjectIds = new Set(subjectQuestions.map((q) => q.id));
+                if (subject === "case") {
+                  return (
+                    <View key={subject} style={styles.subjectCard}>
+                      <Text style={styles.subjectName}>{subjectLabels[subject]}</Text>
+                      <Text style={styles.subjectMeta}>
+                        已训练 {caseStats.mastered} / {caseStats.total}
+                      </Text>
+                    </View>
+                  );
+                }
+                const subjectQuestions = questions.filter(
+                  (question) => question.subject === subject && canUseInLevel(question)
+                );
+                const subjectIds = new Set(subjectQuestions.map((question) => question.id));
                 const completed = progress.answeredQuestionIds.filter((id) =>
                   subjectIds.has(id)
                 ).length;
-                const logs = progress.answerLogs.filter((log) => log.subject === subject);
-                const subjectAccuracy = logs.length
-                  ? Math.round((logs.filter((log) => log.correct).length / logs.length) * 100)
-                  : 0;
-                const currentLevel =
-                  nodes.find((node) => node.subject === subject && node.unlocked && !node.completed)
-                    ?.order ?? 1;
                 return (
                   <View key={subject} style={styles.subjectCard}>
                     <Text style={styles.subjectName}>{subjectLabels[subject]}</Text>
-                    <Text style={styles.subjectMeta}>{subjectQuestions.length}题 · 已做 {completed}</Text>
-                    <Text style={styles.subjectMeta}>正确率 {subjectAccuracy}% · 第 {currentLevel} 关</Text>
+                    <Text style={styles.subjectMeta}>
+                      已完成 {completed} / {subjectQuestions.length}
+                    </Text>
                   </View>
                 );
               })}
@@ -109,34 +118,21 @@ export function Home({ navigate }: { navigate: (screen: ScreenName) => void }) {
         </Panel>
 
         <Panel>
-          <SectionTitle>快捷入口</SectionTitle>
-          <Pressable style={styles.secondaryButton} onPress={startNextLevel}>
-            <Text style={styles.secondaryText}>进入闯关地图</Text>
-          </Pressable>
-          <Pressable style={styles.secondaryButton} onPress={() => navigate("subjects")}>
-            <Text style={styles.secondaryText}>按科目刷题</Text>
-          </Pressable>
-          <Pressable
-            style={styles.secondaryButton}
-            onPress={() => {
-              startSession({ mode: "frequency", limit: 30 });
-              navigate("quiz");
-            }}
-          >
-            <Text style={styles.secondaryText}>高频题训练</Text>
-          </Pressable>
-          <Pressable style={styles.secondaryButton} onPress={() => navigate("diagnostics")}>
-            <Text style={styles.secondaryText}>题库诊断</Text>
-          </Pressable>
-        </Panel>
-
-        <Panel>
-          <SectionTitle>学习状态</SectionTitle>
-          <Text style={styles.body}>题库总数：{stats.total}</Text>
-          <Text style={styles.body}>已完成题数：{progress.answeredQuestionIds.length}</Text>
-          <Text style={styles.body}>正确率：{accuracy}%</Text>
-          <Text style={styles.body}>错题数：{progress.wrongQuestionIds.length}</Text>
-          <Text style={styles.body}>SRS 到期：{dueSRSIds.length}</Text>
+          <SectionTitle>次级入口</SectionTitle>
+          <View style={styles.linkGrid}>
+            <Pressable style={styles.linkButton} onPress={() => navigate("levels")}>
+              <Text style={styles.linkText}>查看关卡地图</Text>
+            </Pressable>
+            <Pressable style={styles.linkButton} onPress={() => navigate("case")}>
+              <Text style={styles.linkText}>案例专项训练</Text>
+            </Pressable>
+            <Pressable style={styles.linkButton} onPress={() => navigate("analytics")}>
+              <Text style={styles.linkText}>学习分析</Text>
+            </Pressable>
+            <Pressable style={styles.linkButton} onPress={() => navigate("diagnostics")}>
+              <Text style={styles.linkText}>题库诊断</Text>
+            </Pressable>
+          </View>
         </Panel>
       </ScrollView>
     </Page>
@@ -170,24 +166,41 @@ const styles = StyleSheet.create({
     lineHeight: 22,
     marginTop: 10
   },
-  rowBetween: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    gap: 12
+  primaryButton: {
+    minHeight: 56,
+    borderRadius: theme.radius.xl,
+    backgroundColor: theme.colors.success,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: theme.spacing.lg
   },
-  body: {
-    color: theme.colors.muted,
-    fontSize: 14,
-    fontWeight: "700",
-    lineHeight: 22
+  primaryText: {
+    color: "#ffffff",
+    fontSize: 18,
+    fontWeight: "900"
+  },
+  planRow: {
+    flexDirection: "row",
+    gap: theme.spacing.sm
+  },
+  planItem: {
+    flex: 1,
+    color: theme.colors.text,
+    backgroundColor: "#F8FBF7",
+    borderRadius: theme.radius.md,
+    padding: theme.spacing.sm,
+    textAlign: "center",
+    fontWeight: "900"
   },
   progressBlock: {
     marginTop: theme.spacing.md,
     gap: theme.spacing.xs
   },
-  progressText: {
-    color: theme.colors.text,
-    fontWeight: "900"
+  body: {
+    color: theme.colors.muted,
+    fontSize: 14,
+    fontWeight: "700",
+    lineHeight: 23
   },
   metrics: {
     flexDirection: "row",
@@ -214,28 +227,17 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     marginTop: 4
   },
-  primaryButton: {
-    minHeight: 54,
-    borderRadius: theme.radius.lg,
-    backgroundColor: theme.colors.success,
-    alignItems: "center",
-    justifyContent: "center",
-    marginTop: theme.spacing.md
+  linkGrid: {
+    gap: theme.spacing.sm
   },
-  primaryText: {
-    color: "#ffffff",
-    fontSize: 17,
-    fontWeight: "900"
-  },
-  secondaryButton: {
-    minHeight: 48,
+  linkButton: {
+    minHeight: 46,
     borderRadius: theme.radius.lg,
     backgroundColor: "#EEF4FF",
     alignItems: "center",
-    justifyContent: "center",
-    marginBottom: theme.spacing.sm
+    justifyContent: "center"
   },
-  secondaryText: {
+  linkText: {
     color: theme.colors.primary,
     fontWeight: "900"
   }

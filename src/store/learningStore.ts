@@ -1,10 +1,14 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { format } from "date-fns";
 import { create } from "zustand";
+import { getOrCreateDailyPlan, refreshDailyPlanStatus } from "../core/dailyPlanEngine";
 import { loadQuestions } from "../core/questionBank";
 import { starsFromAccuracy } from "../core/levelEngine";
+import { markQuestionsAsSeen } from "../core/progressEngine";
 import { createSession } from "../core/sessionEngine";
 import { getDueSRSQuestionIds, updateSRSRecord } from "../core/srsEngine";
 import {
+  DailyPlan,
   ErrorRecord,
   LearningMode,
   LearningProgress,
@@ -18,13 +22,19 @@ const questionBank = loadQuestions();
 
 const emptyProgress: LearningProgress = {
   answeredQuestionIds: [],
+  seenQuestionIds: [],
   correctQuestionIds: [],
   wrongQuestionIds: [],
   answerLogs: [],
   xp: 0,
   streak: 0,
   completedLevelIds: [],
-  levelResults: {}
+  levelResults: {},
+  dailyPlans: {},
+  caseProgress: {
+    masteredCaseIds: [],
+    weakCaseIds: []
+  }
 };
 
 type PersistedState = {
@@ -38,6 +48,7 @@ type StartSessionInput = {
   mode: LearningMode;
   subject?: Subject;
   levelId?: string;
+  dailyStepId?: string;
   questionIds?: string[];
   limit?: number;
 };
@@ -52,10 +63,14 @@ type LearningStore = PersistedState & {
   hydrated: boolean;
   hydrate: () => Promise<void>;
   startSession: (input: StartSessionInput) => void;
+  ensureDailyPlan: (date?: Date) => DailyPlan;
+  markDailyPlanStepCompleted: (stepId: string) => void;
   answerCurrentQuestion: (input: AnswerQuestionInput) => boolean;
   skipCurrentQuestion: () => void;
   nextQuestion: () => void;
   finishSession: () => void;
+  markCaseMastered: (questionId: string) => void;
+  markCaseWeak: (questionId: string) => void;
   resetProgress: () => Promise<void>;
   getQuestionById: (id: string) => Question | undefined;
   getCurrentQuestion: () => Question | undefined;
@@ -91,6 +106,31 @@ const toPersisted = (state: LearningStore): PersistedState => ({
   activeSession: state.activeSession
 });
 
+const completeDailyStep = (
+  progress: LearningProgress,
+  stepId: string
+): LearningProgress => {
+  const dailyPlans = Object.fromEntries(
+    Object.entries(progress.dailyPlans).map(([date, plan]) => [
+      date,
+      refreshDailyPlanStatus(
+        {
+          ...plan,
+          steps: plan.steps.map((step) =>
+            step.id === stepId ? { ...step, completed: true } : step
+          )
+        },
+        progress.answeredQuestionIds
+      )
+    ])
+  );
+
+  return {
+    ...progress,
+    dailyPlans
+  };
+};
+
 export const useLearningStore = create<LearningStore>((set, get) => ({
   questions: questionBank.questions,
   questionStats: questionBank.stats,
@@ -112,11 +152,18 @@ export const useLearningStore = create<LearningStore>((set, get) => ({
       ...emptyProgress,
       ...(parsed.progress ?? {}),
       answeredQuestionIds: parsed.progress?.answeredQuestionIds ?? [],
+      seenQuestionIds: parsed.progress?.seenQuestionIds ?? [],
       correctQuestionIds: parsed.progress?.correctQuestionIds ?? [],
       wrongQuestionIds: parsed.progress?.wrongQuestionIds ?? [],
       answerLogs: parsed.progress?.answerLogs ?? [],
       completedLevelIds: parsed.progress?.completedLevelIds ?? [],
-      levelResults: parsed.progress?.levelResults ?? {}
+      levelResults: parsed.progress?.levelResults ?? {},
+      dailyPlans: parsed.progress?.dailyPlans ?? {},
+      caseProgress: {
+        masteredCaseIds:
+          parsed.progress?.caseProgress?.masteredCaseIds ?? [],
+        weakCaseIds: parsed.progress?.caseProgress?.weakCaseIds ?? []
+      }
     };
     set({
       progress,
@@ -127,13 +174,51 @@ export const useLearningStore = create<LearningStore>((set, get) => ({
     });
   },
 
-  startSession: ({ mode, subject, levelId, questionIds, limit = 30 }) => {
+  ensureDailyPlan: (date) => {
+    const state = get();
+    const targetDate = format(date ?? new Date(), "yyyy-MM-dd");
+    const hadPlan = Boolean(state.progress.dailyPlans[targetDate]);
+    const dailyPlan = getOrCreateDailyPlan({
+      questions: state.questions,
+      progress: state.progress,
+      srsRecords: state.srsRecords,
+      errorRecords: state.errorRecords,
+      now: date
+    });
+    const seenIds = hadPlan
+      ? []
+      : dailyPlan.steps
+          .filter((step) => step.type === "new_level")
+          .flatMap((step) => step.questionIds);
+    const baseProgress = seenIds.length
+      ? markQuestionsAsSeen(state.progress, seenIds)
+      : state.progress;
+    const progress = {
+      ...baseProgress,
+      dailyPlans: {
+        ...baseProgress.dailyPlans,
+        [dailyPlan.date]: dailyPlan
+      }
+    };
+    set({ progress });
+    void persist({ ...toPersisted(get()), progress });
+    return dailyPlan;
+  },
+
+  markDailyPlanStepCompleted: (stepId) => {
+    const progress = completeDailyStep(get().progress, stepId);
+    set({ progress });
+    void persist({ ...toPersisted(get()), progress });
+  },
+
+  startSession: ({ mode, subject, levelId, dailyStepId, questionIds, limit = 30 }) => {
     const state = get();
     const activeSession = createSession({
       questions: state.questions,
       mode,
       subject,
       levelId,
+      dailyStepId,
       questionIds,
       limit,
       answeredQuestionIds: state.progress.answeredQuestionIds,
@@ -142,8 +227,12 @@ export const useLearningStore = create<LearningStore>((set, get) => ({
       srsDueQuestionIds: getDueSRSQuestionIds(state.srsRecords)
     });
 
-    set({ activeSession });
-    void persist({ ...toPersisted(get()), activeSession });
+    const progress = questionIds?.length
+      ? markQuestionsAsSeen(state.progress, activeSession.questionIds)
+      : state.progress;
+
+    set({ activeSession, progress });
+    void persist({ ...toPersisted(get()), activeSession, progress });
   },
 
   answerCurrentQuestion: ({ selectedAnswer }) => {
@@ -181,6 +270,7 @@ export const useLearningStore = create<LearningStore>((set, get) => ({
     };
 
     const progress: LearningProgress = {
+      ...state.progress,
       answeredQuestionIds: unique([
         ...state.progress.answeredQuestionIds,
         questionId
@@ -206,7 +296,9 @@ export const useLearningStore = create<LearningStore>((set, get) => ({
       streak: state.progress.streak,
       lastStreakDate: state.progress.lastStreakDate,
       completedLevelIds: state.progress.completedLevelIds,
-      levelResults: state.progress.levelResults
+      levelResults: state.progress.levelResults,
+      dailyPlans: state.progress.dailyPlans,
+      caseProgress: state.progress.caseProgress
     };
 
     const srsRecords =
@@ -265,7 +357,7 @@ export const useLearningStore = create<LearningStore>((set, get) => ({
           state.progress.xp +
           (session.mode === "level" && stars > 0 ? 50 : 0) +
           (session.mode === "daily" ? 30 : 0) +
-          (session.mode === "wrong" ? 20 : 0),
+          (session.mode === "wrong" || session.mode === "weak_drill" ? 20 : 0),
         streak: state.progress.streak + (shouldAddStreak ? 1 : 0),
         lastStreakDate: shouldAddStreak
           ? todayKey()
@@ -287,6 +379,9 @@ export const useLearningStore = create<LearningStore>((set, get) => ({
               }
             : state.progress.levelResults
       };
+      if (session.dailyStepId) {
+        progress = completeDailyStep(progress, session.dailyStepId);
+      }
       activeSession.rewardGranted = true;
     }
 
@@ -297,6 +392,39 @@ export const useLearningStore = create<LearningStore>((set, get) => ({
   finishSession: () => {
     set({ activeSession: null });
     void persist({ ...toPersisted(get()), activeSession: null });
+  },
+
+  markCaseMastered: (questionId) => {
+    const state = get();
+    const progress = {
+      ...state.progress,
+      caseProgress: {
+        masteredCaseIds: unique([
+          ...state.progress.caseProgress.masteredCaseIds,
+          questionId
+        ]),
+        weakCaseIds: state.progress.caseProgress.weakCaseIds.filter(
+          (id) => id !== questionId
+        )
+      }
+    };
+    set({ progress });
+    void persist({ ...toPersisted(get()), progress });
+  },
+
+  markCaseWeak: (questionId) => {
+    const state = get();
+    const progress = {
+      ...state.progress,
+      caseProgress: {
+        masteredCaseIds: state.progress.caseProgress.masteredCaseIds.filter(
+          (id) => id !== questionId
+        ),
+        weakCaseIds: unique([...state.progress.caseProgress.weakCaseIds, questionId])
+      }
+    };
+    set({ progress });
+    void persist({ ...toPersisted(get()), progress });
   },
 
   resetProgress: async () => {

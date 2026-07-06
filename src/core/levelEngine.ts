@@ -1,5 +1,6 @@
 import { LearningProgress } from "../types/progress";
 import { Question, Subject, subjectLabels, subjects } from "../types/question";
+import { canUseInLevel } from "./questionBank";
 
 export type LevelNode = {
   id: string;
@@ -31,7 +32,9 @@ export function buildLevelNodes(
   subjects
     .filter((subject) => subject !== "unknown")
     .forEach((subject) => {
-      const subjectQuestions = questions.filter((question) => question.subject === subject);
+      const subjectQuestions = questions.filter(
+        (question) => question.subject === subject && canUseInLevel(question)
+      );
       for (let index = 0; index < subjectQuestions.length; index += questionsPerLevel) {
         const chunk = subjectQuestions.slice(index, index + questionsPerLevel);
         const levelNumber = Math.floor(index / questionsPerLevel) + 1;

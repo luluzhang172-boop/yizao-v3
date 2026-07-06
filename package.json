@@ -5,6 +5,9 @@
   "main": "expo/AppEntry.js",
   "scripts": {
     "build:questions": "node run.js",
+    "questions:import": "node run.js",
+    "questions:sync": "node scripts/syncQuestionBankToApp.js",
+    "questions:update": "node run.js && node scripts/syncQuestionBankToApp.js",
     "start": "expo start",
     "tunnel": "expo start --tunnel",
     "web": "expo start --web",

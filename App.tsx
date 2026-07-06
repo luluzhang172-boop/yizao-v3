@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { Analytics } from "./src/screens/Analytics";
+import { CaseTrainingScreen } from "./src/screens/CaseTrainingScreen";
+import { DailyFlowScreen } from "./src/screens/DailyFlowScreen";
 import { Home } from "./src/screens/Home";
 import { LevelMapScreen } from "./src/screens/LevelMapScreen";
 import { QuestionBankDiagnosticsScreen } from "./src/screens/QuestionBankDiagnosticsScreen";
@@ -14,17 +16,21 @@ import { theme } from "./src/theme/theme";
 
 export type ScreenName =
   | "home"
+  | "daily"
   | "levels"
   | "subjects"
   | "quiz"
   | "review"
+  | "case"
   | "analytics"
   | "diagnostics";
 
 const tabs: Array<{ key: ScreenName; label: string }> = [
   { key: "home", label: "首页" },
-  { key: "levels", label: "闯关" },
+  { key: "daily", label: "今日" },
+  { key: "levels", label: "关卡" },
   { key: "review", label: "复习" },
+  { key: "case", label: "案例" },
   { key: "analytics", label: "分析" }
 ];
 
@@ -44,10 +50,12 @@ export default function App() {
           <View style={styles.shell}>
             <View style={styles.content}>
               {screen === "home" && <Home navigate={setScreen} />}
+              {screen === "daily" && <DailyFlowScreen navigate={setScreen} />}
               {screen === "levels" && <LevelMapScreen navigate={setScreen} />}
               {screen === "subjects" && <SubjectSelectScreen navigate={setScreen} />}
               {screen === "quiz" && <Quiz navigate={setScreen} />}
               {screen === "review" && <Review navigate={setScreen} />}
+              {screen === "case" && <CaseTrainingScreen />}
               {screen === "analytics" && <Analytics />}
               {screen === "diagnostics" && (
                 <QuestionBankDiagnosticsScreen navigate={setScreen} />

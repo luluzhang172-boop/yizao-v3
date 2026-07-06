@@ -1,4 +1,4 @@
-import rawQuestions from "../../output/questions_v2.json";
+import rawQuestions from "../data/questions_master.json";
 import {
   Question,
   QuestionBankStats,
@@ -163,8 +163,16 @@ export function normalizeQuestion(raw: RawQuestion, index = 0): (Question & { de
     errorWeight: numberOr(raw.errorWeight, 1),
     confidence: numberOr(raw.confidence ?? raw.rawConfidence, 0),
     rawText: typeof raw.rawText === "string" ? raw.rawText : undefined,
+    subQuestions: Array.isArray(raw.subQuestions)
+      ? raw.subQuestions.map((item) => String(item).trim()).filter(Boolean)
+      : undefined,
     deMergedFixCount
   };
+
+  if (isCaseQuestion(question)) {
+    question.type = "case";
+    question.options = null;
+  }
 
   question.id = question.id || `${makeFallbackId(question)}-${index}`;
   return question;
@@ -247,4 +255,26 @@ export function loadQuestions() {
     questions: deduped.questions,
     stats: getQuestionStats(deduped.questions, deduped.duplicateCount)
   };
+}
+
+export function isCaseQuestion(question: Question) {
+  return (
+    question.type === "case" ||
+    question.subject === "case" ||
+    !question.options ||
+    (question.stem.length > 300 && !question.options)
+  );
+}
+
+export function isObjectiveQuestion(question: Question) {
+  return (
+    ["single_choice", "multiple_choice", "judgement"].includes(question.type) &&
+    Boolean(question.options) &&
+    question.stem.trim().length > 0 &&
+    !isCaseQuestion(question)
+  );
+}
+
+export function canUseInLevel(question: Question) {
+  return isObjectiveQuestion(question);
 }

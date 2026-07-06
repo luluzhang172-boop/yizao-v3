@@ -26,6 +26,12 @@ export interface Question {
   errorWeight: number;
   confidence: number;
   rawText?: string;
+  sourceFile?: string;
+  sourceFiles?: string[];
+  sourceHash?: string;
+  importBatchId?: string;
+  examAppearCount?: number;
+  subQuestions?: string[];
 }
 
 export type QuestionBankStats = {
